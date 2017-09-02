@@ -2,7 +2,7 @@
 
 ![](gfx/dm2.png)
 
-Quick links: [**download**](releases/latest) | [**documentation**](wiki)
+Quick links: [**download**](https://hithub.com/igr/dm2/releases/latest) | [**documentation**](https://hithub.com/igr/dm2/wiki)
 
     DM2 IS NOT LONGER BEING MAINTAINED. FEEL FREE TO CONTRIBUTE!
 
@@ -16,7 +16,7 @@ And that is not all! **DM2** also supports _custom plugins_, which further enhan
 
 The latest **DM2** release is available here:
 
-[**dm2-1.23.1.zip**](releases/latest)
+[**dm2-1.23.1.zip**](https://hithub.com/igr/dm2/releases/latest)
 
 **DM2** is tested on Windows 2K/XP. All archives and binaries are ad-free and virus-free.
 
@@ -26,7 +26,7 @@ Up to the _September 2017._, **DM2** was download more then **250 000** times!
 
 ## Documentation
 
-**DM2** documentation is on the [wiki](wiki).
+**DM2** documentation is on the [wiki](https://hithub.com/igr/dm2/wiki).
 
 ## Development
 
