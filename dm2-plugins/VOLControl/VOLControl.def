@@ -1,0 +1,4 @@
+LIBRARY		VOLControl
+DESCRIPTION	"code by flyfancy 2005.8"
+
+EXPORTS		dm2_get_interface

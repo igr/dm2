@@ -1,0 +1,278 @@
+;Language version 1.20
+;##############
+;##by cek-cek##
+;##############
+
+[LangOptions]
+LanguageName=Slovenskı
+FontName=MS Sans Serif
+FontSize=9
+
+[Messages]
+0=DM2 Info
+100=Názov pravidla or Reg vıraz chıba!
+101=Pravidlo chıba!
+102=Nastavenie vınimiek musí by vyznaèené!
+103=Nemôem spusti špecifikovanú aplikáciu! Prosím skontrolujte cestu.
+104=Tento plugin nemá iadne nastavenia!
+105=Nemôem vymaza 'default' alebo 'application' sekciu!
+106=Nemôem editova 'default' alebo 'application' sekciu!
+108=Nemôem editova znak menu odde¾ovaèa!
+109=Názov sekcie chıba!
+110=Názov sekcie u existuje!
+111=Názov chıba!
+112=Prosím nepouívajte znak '-' v názve!
+113=Prosím nepouívajte v ceste znaky '|' alebo '-'!
+114=Cesta chıba!
+115=To sa nedá urobi!
+116=Vısledok testu pravidla:
+117=Nemôem nájs prislúchajúce okno!
+118=Príliš ve¾a prislúchajúcich okien!
+119=Test OK: prislúchajúce okno nájdené!
+120=Vısledok
+121=Naozaj chcete odinštalova plugin?
+122=Klávesová skratka u exsistuje!
+
+[MenuFloat]
+0=&Priehladnos
+103=&Obnovi okno
+104=&Na vrchu
+100=&DM2
+105=&10%
+106=&20%
+107=&30%
+108=&40%
+109=&50%
+110=&60%
+111=&70%
+112=&80%
+113=&90%
+114=1&00%
+
+[MenuTray]
+103=&Obnovi okno
+100=&DM2
+
+[MenuDM2]
+100=&DM2
+101=&Obnovi všetky okná
+102=&Ukonèit
+
+[MenuResize]
+40001=640x480
+40002=800x600
+40003=1024x768
+40004=1280x960
+40005=100%
+40006=50%
+40007=30%
+40008=&Iné...
+
+;Note: system menu max 30 character
+[MenuSystem]
+500=Minimalizova do &tray
+501=Vdy &navrchu
+502=Na &floating ikonu
+503=Prieh¾adnos
+513=&Vypnú
+514=&Priorita
+515=&Tichá
+516=&Pod normálom
+517=&Normálna
+518=Na&d normálom
+519=&Vysoká
+520=&Skutoènı èas
+
+[SettingsDialog]
+1=&OK
+2=&Zruši
+1000=&Ukonèi
+0=Nastavenia
+102=Základné
+104=Rozšírené
+116=Akcie
+105=Klávesové skratky
+106=Ob¾úbené poloky
+108=Vlastné
+110=Vınimky
+115=Pluginy
+107=Manaér okien
+103=O programe
+
+[SettingsDialogGeneral]
+100=Hore-V¾avo
+101=Hore-Vpravo
+102=Dole-V¾avo
+103=Dole-Vpravo
+104=Stred
+105=38x38 (Predvolené)
+106=30x30
+107=22x22
+1004=Float ikona predvolene na&vrchu
+1009=Pozícia okna na&sleduje float ikonu
+1010=&Priesvitnos float ikony:
+1077=Pozícia float ikony:
+1078=Farba orámovania float ikony:
+1079=Farba pozadia float ikony:
+1015=Urobi screens&hoty pri skrıvaní
+1019=Pri&spôsobenie ve¾kosti
+1080=Šírka:
+1081=Vıška:
+1099=Nastavenia screenshotov
+1108=Ve¾kos float ikony:
+1113=Štıl pohybovania float ikony ako pri &Winampe
+
+[SettingsDialogAdvance]
+100=Všetci pouívatelia
+101=Tento pouívate¾
+103=Názvy procesov prislúchajúce predvolenım.
+1025=Povoli &modifikáciu systémového menu
+1026=Povoli &detekciu zatvárania okna
+1027=Povoli dy&namické obnovovanie nadpisu okna
+1036=Autom. &spustenie pri štarte Windowsu
+1040=Povoli zobrazenie kláv. &skratky DM2 okna
+1046=&Predchádza posunutiu float ikony mimo obraz. pri obnov. okna
+1067=Názov sekcie v Ob¾úb. polokách prislúcha s &názvom nadpisu.
+1018=DM2 ukazuje &tray ikonu
+1095=Jazyk:
+1098=Stiahnu viac jazykov!
+1119=Poèet posledne navštívenıch poloiek v Ob¾úb. polo. (0~15):
+
+[SettingsDialogAction]
+100=iadna akcia
+101=Posla okno dole
+102=Obnovi ve¾kos okna
+103=Zarovnanie okna
+1115=Tlaèidlo/Myš
+1116=Min tlaèidlo
+1117=Max tlaèidlo
+1118=Zavrie tlaèidlo
+1119=Pravé kliknutie
+1120=Shift+Pravé
+1121=Alt+pravé
+1122=Ctrl+Pravé
+1123=Stredné kliknutie
+1124=Shift+Stredné
+1125=Alt+Stredné
+1126=Ctrl+Stredné
+
+[DialogResize]
+1=&OK
+2=&Zruši
+1129=Šírka:
+1130=Vıška:
+1133=Pi&xel
+1134=&Percentá
+
+[SettingsDialogHotKey]
+0=Klávesová skratka
+1=Príkaz
+2=Parameter
+100=Skry okno v popredí
+101=Minimalizova okno do tray
+102=Minimalizova okno na float ikonu
+103=Zvıši prieh¾adnos okna
+104=Zníi prieh¾adnos okna
+105=Predvolená prieh¾adnos okna
+106=Zamknú okno v popredí
+107=Ukáza ob¾úbené poloky
+108=Skry urèené okno
+1022=&Prida
+1023=&Odstráni
+1024=&Editova
+
+[SettingsDialogHotKeyEdit]
+100=Editova skratku
+101=Prida skratku
+1082=Kláv. skr.:
+1083=Príkaz:
+1111=Parameter:
+1=&Uloi
+2=&Zruši
+
+[SettingsDialogFav]
+1028=Zapnú &Ob¾úb. poloky
+1032=Pri&d.
+1033=Vyma&z.
+1034=Ed&it.
+1029=&Prida
+1030=&Vymaza
+1031=&Editova
+
+[SettingsDialogFavSection]
+100=Editova sekciu
+101=Prida sekciu
+1084=Sekcia:
+1=&Uloi
+2=&Zruši
+
+[SettingsDialogFavMenu]
+100=Editova poloku
+101=Prida poloku
+1085=Názov:
+1086=Cesta:
+1064=je p&odmenu
+1066=je odde¾ovaè &menu
+1=&Uloi
+2=&Zruši
+
+[SettingsDialogCustom]
+0=Názov pravidla
+1=Reg vıraz
+1087=Nastavenia vlastnej float ikony.
+1032=&Prida
+1033=&Vymaza
+1034=&Editova
+1036=Od&testova
+
+[SettingsDialogCustomEdit]
+100=Edituj pravidlo
+101=Prida pravidlo
+1088=Názov pravidla:
+1089=Reg vırazy:
+1090=Vlastné
+1=&Uloi
+2=&Zruši
+
+[SettingsDialogExcept]
+1091=Ak DM2 správne nepracuje s niektorımi aplikáciami, prosím pridajte pravidlo na predídenie problému (Reg vırazy sú k dispozícii).
+1057=&Prida
+1058=&Odstráni
+1059=&Editova
+
+[SettingsDialogExceptEdit]
+100=Edituj pravidlo vınimky
+101=Pridaj pravidlo vınimky
+1092=Pravidlo:
+1093=Prislúcha s
+1053=Nadpis okna
+1054=&Meno procesu
+1094=Nastavenia vınimiek
+1055=Vypnú funkciu &Ob¾úbené poloky
+1056=&Vypnú float/tray/skry/prieh¾adnos funkcia
+1107=Vypnú modifikáciu S&ystémového menu
+1=&Uloi
+2=&Zruši
+
+[SettingsDialogPlugins]
+1072=&Nastavenie
+1073=O &programe
+1075=&Odinštal.
+1101=Stiahnu viac pluginov!
+
+[SettingsDialogWindowManager]
+0=Nadpis okna
+1=Stav
+100=iadny nadpis alebo zatvorené
+101=Float ikona
+102=Tray ikona
+103=Skryté okno
+104=Prieh¾adnos %d%%
+1006=&Obnovi
+1008=Obnovi &všetky
+1007=&Zavrie okno
+1009=Z&novu naèíta
+
+[SettingsDialogAbout]
+1103=Stránka:
+

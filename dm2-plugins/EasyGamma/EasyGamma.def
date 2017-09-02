@@ -1,0 +1,4 @@
+LIBRARY		EasyGamma
+DESCRIPTION	"easy set the gamma. code by flyfancy"
+
+EXPORTS		dm2_get_interface

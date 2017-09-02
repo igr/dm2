@@ -1,0 +1,4 @@
+LIBRARY		CDControl
+DESCRIPTION	"DialogMate2 plugins - CD Control module. code by flyfancy"
+
+EXPORTS		dm2_get_interface

@@ -1,0 +1,4 @@
+LIBRARY		WinEnable
+DESCRIPTION	"DialogMate2 plugins - WinEnable module. code by flyfancy"
+
+EXPORTS		dm2_get_interface

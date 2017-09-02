@@ -1,0 +1,273 @@
+;Language version 1.20
+[LangOptions]
+LanguageName=Spanish (alt)
+FontName=MS Sans Serif
+FontSize=9
+
+[Messages]
+0=DM2 Info
+100=Nombre de regla o de expresión regular perdido !
+101=Regla no encontrada !
+102=Debe configurar los parametros de Excepción!
+103=No se puede ejecutar la aplicación solicitada! Por favor verifique la ruta.
+104=Este plugin no tiene configuración!
+105=No se puede eliminar la sección 'por defecto' o 'aplicación'!
+106=No se puede editar la sección 'por defecto' o 'aplicación'!
+108=No se pueden editar los separadores!
+109=Falta el nombre de sección!
+110=Ya existe este nombre de sección!
+111=Falta el Nombre!
+112=Por favor no utilice el caracter '-' en el nombre!
+113=Por favor no utilice los caracteres '|' ni '-' en el path!
+114=Falta la ruta de acceso!
+115=Acción no válida!
+116=Resultado de prueba de la regla:
+117=No se encuentra ninguna ventana igual!
+118=Demasiadas ventanas iguales encontradas!
+119=Prueba Ok: Ventana encontrada!
+120=Resultado
+121=Estás seguro que deseas desinstalar este plugin?
+122=Atajo de teclado ya existente!
+
+[MenuFloat]
+0=O&pacidad
+103=&Restaurar ventana
+104=&Siempre visible
+100=&DM2
+105=&10%
+106=&20%
+107=&30%
+108=&40%
+109=&50%
+110=&60%
+111=&70%
+112=&80%
+113=&90%
+114=1&00%
+
+[MenuTray]
+103=&Restaurar ventana
+100=&DM2
+
+[MenuDM2]
+100=&DM2
+101=&Restaurar todas las ventanas
+102=&Salir
+
+[MenuResize]
+40001=640x480
+40002=800x600
+40003=1024x768
+40004=1280x960
+40005=100%
+40006=50%
+40007=30%
+40008=&Otra...
+
+;Note: system menu max 30 character
+[MenuSystem]
+500=Mandar a la barra de &tareas
+501=Siempre &visible
+502=Enviar a ícono &flotante
+503=Opacidad
+513=&Deshabilitar
+514=&Prioridad
+515=&Descansando
+516=&Debajo de lo Normal
+517=&Normal
+518=&Sobre lo Normal
+519=&Alta
+520=Tiempo &Real
+
+[SettingsDialog]
+1=&Aceptar
+2=&Cancelar
+1000=&Salir
+0=Configuración
+102=General
+104=Avanzado
+116=Acciones
+105=Atajos de Teclado
+106=Menu de Favoritos
+108=Personalizado
+110=Excepciones
+115=Plugins
+107=Administrador de Ventanas
+103=Acerca de
+
+[SettingsDialogGeneral]
+100=Arriba-Izquierda
+101=Arriba-Derecha
+102=Abajo-Izquierda
+103=Abajo-Derecha
+104=Centro
+105=38x38 (Por defecto)
+106=30x30
+107=22x22
+1004=Icono flo&tante siempre visible por defecto
+1009=Posición de la &ventana ligada al icono flotante
+1010=O&pacidad del ícono flotante:
+1077=Posición inicial del ícono flotante:
+1078=Color del borde del ícono flotante:
+1079=Color de fondo del ícono flotante:
+1015=Crear capturas al reducir
+1019=Aj&ustar a las dimensiones
+1080=Ancho:
+1081=Alto:
+1099=Configuración de capturas
+1108=Tamaño del icono flotante:
+1113=Movimiento del icono flotante estilo &winamp
+
+[SettingsDialogAdvance]
+100=Todos los Usuarios
+101=Usuario Actual
+103=Por defecto el nombre de secciones está basado en el de procesos.
+1025=Activar la &modificación del menu contextual de sistema
+1026=Activar la &detección del cierre de las ventanas cacheadas
+1027=Activar la actualización dinámica del tít&ulo de ventana
+1036=Iniciar al inicio de Window&s para
+1040=Activar ventana de atajos de &teclado
+1046=&Ventana siempre dentro del escritorio al restaurar
+1067=Nombre de secciones de &Favoritos basado en el título de las ventanas
+1018=Mostrar icono de DM2 en la barra de tareas
+1095=Lenguaje:
+1098=Otros lenguajes
+1119=Numero de carpetas recientes en el Menú de Favoritos (0~15):
+
+[SettingsDialogAction]
+100=Ninguna Acción
+101=Enviar ventana al fondo
+102=Modificar el tamaño de la ventana
+103=Alinear ventana
+1115=Tecla/Mouse
+1116=Botón Min
+1117=Botón Max
+1118=Botón Cerrar
+1119=Click Derecho
+1120=Shift+Derecho
+1121=Alt+Derecho
+1122=Ctrl+Derecho
+1123=Click Medio
+1124=Shift+Medio
+1125=Alt+Medio
+1126=Ctrl+Medio
+
+[DialogResize]
+1=&Aceptar
+2=&Cancelar
+1129=Ancho:
+1130=Alto:
+1133=Pi&xel
+1134=&Porcentaje
+
+[SettingsDialogHotKey]
+0=Atajo Teclado
+1=Comando
+2=Param
+100=Ocultar ventana
+101=Minimizar ventana a la barra de tareas
+102=Minimizar ventana a ícono flotante
+103=Aumentar opacidad de la ventana
+104=Disminuir opacidad de la ventana
+105=Resetear opacidad
+106=Mantener siempre visible
+107=Mostrar menú de favoritos
+108=Ocultar ventana especificada
+1022=&Agregar
+1023=&Eliminar
+1024=&Modificar
+
+[SettingsDialogHotKeyEdit]
+100=Modificar atajo de teclado
+101=Agregar atajo de teclado
+1082=Atajo:
+1083=Comando:
+1111=Param:
+1=&Guardar
+2=&Cancelar
+
+[SettingsDialogFav]
+1028=Activar menú de &favoritos
+1032=A&gregar
+1033=E&liminar
+1034=Mod&ificar
+1029=&Agregar
+1030=Elimi&nar
+1031=&Modificar
+
+[SettingsDialogFavSection]
+100=Modificar sección
+101=Agregar sección
+1084=Sección:
+1=&Guardar
+2=&Cancelar
+
+[SettingsDialogFavMenu]
+100=Editar ítem del menú
+101=Agregar ítem del menú
+1085=Nombre:
+1086=Ruta:
+1064=es s&ub menú
+1066=es separador de &menú
+1=&Guardar
+2=&Cancelar
+
+[SettingsDialogCustom]
+0=Nombre de la regla
+1=Expresión regular
+1087=Configuración de los iconos flotantes personalizados.
+1032=&Agregar
+1033=&Eliminar
+1034=&Modificar
+1036=&Probar
+
+[SettingsDialogCustomEdit]
+100=Modificar regla
+101=Agregar regla
+1088=Nombre de la regla:
+1089=Expresión regular:
+1090=Personalizado
+1=&Guardar
+2=&Cancelar
+
+[SettingsDialogExcept]
+1091=Si DM2 funciona mal con alguna aplicación, puede añadir una regla para evitar problemas (pueden usarse expresiones regulares).
+1057=&Agregar
+1058=&Eliminar
+1059=&Modificar
+
+[SettingsDialogExceptEdit]
+100=Editar la regla de excepción
+101=Agregar una regla de excepción
+1092=Regla:
+1093=El nombre de la regla corresponde al
+1053=&Titulo de la ventana
+1054=Nombre del &proceso
+1094=Configuración de la excepción
+1055=Desactivar el menú de &favoritos
+1056=&Desactivar icono flot./notif./cachear/opacidad
+1107=Desactivar la modificación del menú contextual
+1=&Guardar
+2=&Cancelar
+
+[SettingsDialogPlugins]
+1072=C&onfigurar
+1073=&Acerca de
+1075=&Desinstalar
+1101=Otros plugins...
+
+[SettingsDialogWindowManager]
+0=Titulo de la Ventana
+1=Estado
+100=Sin título o cerrada
+101=Ícono flotante
+102=Icono de notificación
+103=Ventana oculta
+104=Opacidad %d%%
+1006=&Restaurar
+1008=Restaurar Todo
+1007=Cerrar &Ventana
+1009=A&ctualizar
+
+[SettingsDialogAbout]
+1103=Sitio web:

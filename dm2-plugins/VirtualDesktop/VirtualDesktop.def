@@ -1,0 +1,4 @@
+LIBRARY		VirtualDesktop
+DESCRIPTION	"Virtual Desktop plugin for dm2. code by flyfancy"
+
+EXPORTS		dm2_get_interface

@@ -1,0 +1,120 @@
+History
+-------
+
+v1.23.1 [2007-03-05]
+! fix new hotkey patch bug. (register hot key error, example: shift+up)
+! correct a compiler warning.
+
+v1.23 [2007-03-05]
++ two patch. (thx Bamanzi#gmail.com)
+ + hotkey can use windows key
+ + ShBrowseForDialog patch
+! fix some cd control plugin bug
+! fix a volume control plugin bug
+
+v1.22 [2006-09-15]
+! fixed autorun bug.
++ some more languages added and updated.
++ added a simple plugin "CloseMonitor", that can fast close you main monitor.
++ added a simple plugin "EasyGamma"
++ "VirtualDesktop" plugin updated to 0.03, now you can use the param change to specified virtual desktop, param 1-8 can change to virtual desktop 1-8.
++ added SVN repository
+
+v1.21 [2006-04-05]
+! fixed CPU 100% bug on new CPUs with NX protection
++ more languages added
+
+v1.20 [2005-09-20]
++ some action command added (Window to bottom, Window Resize, Window Align).
++ some new plugin added (Roll Up/UnRoll Window, VolumeControl etc. you can download it from: http://dm2.sf.net).
+! favorites menu treeview interface improve.
+! some code optimize.
+- fixed more memory leaks! (recommend user updata to 1.2x or later)
+- fixed some minor bugs.
++ all strings removed from the program.
+- fixed minor resize menu bug
+
+v1.20 beta2[2005-09-02]
++ Simple Environment macros for favorites (for example: %windir%\Fonts)
+! make favorites menu treeview can drag and drop
+- fixed minor bug.
+
+v1.20 beta1[2005-08-31]
++ can custom the dm2 action when right/middle click the min/max/close button.
++ add menu can set process priority from sysmenu.
++ add recent menu to favorites menu.
++ TreeView in 'Favorites' dialog
+! make plugins support the action, we can write the action plugins now.
+! some minor changed.
+- remove something.
+- fixed more bug!
+
+v1.18 [2005-05-10]
+! fixed a bug about favorites menu
+
+[2005-05-03] (silent update)
+! minor changes in Traditional Chinese translation by rexx
++ Japanese translation added by 1
+
+[2005-04-25] (silent update)
++ Traditional Chinese translation added by rexx
++ Dutch translation added by PintSKi
+
+v1.17.1 [2005-04-21]
++ French translation added by Denis Vanneste
+! some minor English corrections
+
+v1.17 [2005-04-18]
++ add float icon moving style like winamp style (old style can't moving float icon out the screen top)
+! some minor change
+- fixed a bug, about autorun.
+
+v1.16 [2005-04-15]
+! updata the plugins definition file to 1.02. (because want process param at dm2 and only post argv&argc to plugins, to make the plugins develope more easy.)
+! some minor change.
+
+v1.15 [2005-04-12]
++ make hotkey param support.
++ make plugins uninstall enable.
++ make context menu for some edit window.
+! lower memory usage (2000/xp/2003 only.)
+! some change for plugins (dm2plugins.h file change).
+! other change.
+- fixed three bug about hotkey.
+- fixed a bug about plugins.
+- fixed some other bug.
+
+v1.13 [2005-04-05]
+! change the image library (support jpeg/gif etc.)
+! minor performance improved.
+! some change.
+- fixed a bug.
+
+v1.12 [2005-04-02]
+! some minor changes and face-lifting before going public
+
+v1.11
++ new dm2 logo.
+! some change for ScreenShoot function.
+! some change for favorites menu item add.
+- fixed minor bug
+
+v1.10
++ plugins support (anybody can write dm2 plugins use dm2plugins.h)
++ full internationalization support.
++ can setting float window size.
++ make win9x/me compatibility (window opacity setting function invalidation and other change)
+! some change for plugins support.
+! other small change.
+- fixed bug when favorites menu too larger. because i use "wsprintf" and use buffers larger than 1024 bytes! now use "_snprintf".
+- fixed other small bug
+
+v1.00
++ init version
+
+
+Legend
+------
++ Added feature
+! Improved/changed feature
+- Bug fixed

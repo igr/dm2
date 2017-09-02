@@ -1,0 +1,275 @@
+;Language version 1.20 by Muuu Welky Wezir (mko[at]onlymy.name)
+[LangOptions]
+LanguageName=Èesky
+FontName=MS Sans Serif
+FontSize=9
+
+[Messages]
+0=DM2 Info
+100=Chybí název pravidla nebo Reg. výraz!
+101=Chybí pravidlo!
+102=Alespoò jedna výjimka musí být vybrána!
+103=Tuto aplikaci nelze spustit! Zkontrolujte cestu...
+104=Tento plugin nemá žádné nastavení.
+105='Default' èi 'Application' sekce nelze smazat!
+106='Default' èi 'Application' sekce nelze editovat!
+108=Oddìlovaè nelze editovat!
+109=Chybí název sekce!
+110=Název sekce již existuje!
+111=Chybí jméno!
+112=Nepožívejte v názvu znak '-', prosím!
+113=Nepoužívejte '|' èi '-' v cestì, prosím!
+114=Chybí cesta!
+115=Toto není možné!
+116=Výsledek testu pravidla:
+117=Nelze najít odpovídající okno!
+118=Nalezeno pøíliš mnoho odpovídajících oken!
+119=Test OK: Odpovídající okno nalezeno!
+120=Výsledek
+121=Opravdu chcete odebrat tento plugin?
+122=Tato klávesová zkratka již existuje!
+
+[MenuFloat]
+0=&Viditelnost
+103=&Obnovit okno
+104=&Vždy na vrchu
+100=&DM2...
+105=&10%
+106=&20%
+107=&30%
+108=&40%
+109=&50%
+110=&60%
+111=&70%
+112=&80%
+113=&90%
+114=1&00% (neprùhledné)
+
+[MenuTray]
+103=&Obnovit okno
+100=&DM2...
+
+[MenuDM2]
+100=&DM2...
+101=&Obnovit všechna okna
+102=&Ukonèit DM2
+
+[MenuResize]
+40001=640x480
+40002=800x600
+40003=1024x768
+40004=1280x960
+40005=100%
+40006=50%
+40007=30%
+40008=&Jiná...
+
+;Note: system menu max 30 character
+[MenuSystem]
+500=Minimalizovat do &systray
+501=&Vždy navrchu
+502=&Minimalizovat do pl. ikony
+503=V&iditelnost
+513=100% (&neprùhledné)
+514=P&riorita
+515=&Nízká
+516=P&odprùmìrná
+517=Nor&mální
+518=N&adprùmìrná
+519=V&ysoká
+520=&Reálný èas
+
+[SettingsDialog]
+1=&OK
+2=&Zrušit
+1000=U&konèit DM2
+0=Nastavení
+102=Hlavní
+104=Pokroèilé
+116=Akce
+105=Klávesové zkratky
+106=Oblíbené položky
+108=Vlastní nastavení
+110=Pravidla (výjimky)
+115=Pluginy
+107=Správce oken
+103=O programu
+
+[SettingsDialogGeneral]
+100=Vlevo nahoøe
+101=Vpravo nahoøe
+102=Vlevo dole
+103=Vpravo dole
+104=Uprostøed
+105=38x38 (výchozí)
+106=30x30
+107=22x22
+1004=&Plovoucí ikona vždy navrchu
+1009=Obnovit okno na pozici p&lovoucí ikony
+1010=Viditeln&ost plovoucí ikony
+1077=Výchozí pozice plovoucí ikony:
+1078=Barva okraje plovoucí ikony:
+1079=Barva pozadí plovoucí ikony:
+1015=Sejmout ná&hled okna pøi minimalizaci
+1019=&Roztáhnout náhled:
+1080=Šíøka:
+1081=Výška:
+1099=Náhled okna (pravým tlaèítkem na plovoucí ikonu)
+1108=Velikost plovoucí ikony:
+1113=Pøesouvání plovoucích &ikon jejich tažením (jako Winamp)
+
+[SettingsDialogAdvance]
+100=Všechny uživatele
+101=Tohoto uživatele
+103=&Process names are matched by default.
+1025=&Modifikace systémové nabídky aplikace
+1026=&Detekce zavírání skrytých oken
+1027=D&ynamická aktualizace titulkù oken
+1036=&Spouštìt spoleènì s Windows pro:
+1040=&Zobrazit DM2 klávesovou zkratkou:
+1046=Pøi obnovení zakázat umístìní okna mimo ob&razovku
+1067=Název sekce Oblíbené položky odpovídá titu&lku okna
+1018=Zobrazovat DM2 v sys&tray
+1095=Jazy&k:
+1098=Získej více jazykù!
+1119=P&oèet posledních složek v O&blíbených položkách (0-15):
+
+[SettingsDialogAction]
+100=Žádná akce
+101=Poslat okno na pozadí
+102=Zmìna velikosti okna
+103=Pozice okna na obrazovce
+1115=Kl./tl.
+1116=tl. Min.
+1117=tl. Max.
+1118=tl. Zavøít
+1119=Pravé tl.
+1120=Shift+Pravé
+1121=Alt+Pravé
+1122=Ctrl+Pravé
+1123=Prostø. tl.
+1124=Shift+Prostø.
+1125=Alt+Prostø.
+1126=Ctrl+Prostø.
+
+[DialogResize]
+1=&OK
+2=&Zrušit
+1129=Šíøka:
+1130=Výška:
+1133=Pi&xelù
+1134=&Procent
+
+[SettingsDialogHotKey]
+0=Klávesová zkratka
+1=Pøíkaz
+2=Parametr
+100=Skrýt okno v popøedí
+101=Minimalizovat okno do systray
+102=Minimalizovat okno do plovoucí ikony
+103=Zvìtšit viditelnost okna
+104=Zmenšit viditelnost okna
+105=Viditelnost okna pøepnout na výchozí
+106=Zmìnit stav okna 'vždy nahoøe'
+107=Ukázat menu Oblíbené položky
+108=Skrýt vybrané okno
+1022=&Pøidat
+1023=&Odebrat
+1024=&Editovat
+
+[SettingsDialogHotKeyEdit]
+100=Editovat klávesovou zkratku
+101=Pøidat klávesovou zkratku
+1082=&Zkratka:
+1083=&Pøíkaz:
+1111=Pa&rametr:
+1=&Uložit
+2=&Zrušit
+
+[SettingsDialogFav]
+1028=&Oblíbené položky
+1032=&+
+1033=&-
+1034=Ed&it
+1029=&Pøidat
+1030=&Odebrat
+1031=&Editovat
+
+[SettingsDialogFavSection]
+100=&Editovat sekci
+101=&Pøidat sekci
+1084=Sekce:
+1=&Uložit
+2=&Zrušit
+
+[SettingsDialogFavMenu]
+100=&Editovat položku menu
+101=Pø&idat položku menu
+1085=&Název:
+1086=&Cesta:
+1064=&Podmenu
+1066=&Oddìlovaè
+1=&Uložit
+2=&Zrušit
+
+[SettingsDialogCustom]
+0=Název pravidla
+1=Reg. výraz
+1087=Vlastní nastavení plovoucí ikony
+1032=&Pøidat
+1033=&Odebrat
+1034=&Editovat
+1036=&Testovat
+
+[SettingsDialogCustomEdit]
+100=Editovat pravidlo
+101=Pøidat pravidlo
+1088=Název pravidla:
+1089=Reg. výrazy:
+1090=Vlastní
+1=&Uložit
+2=&Zrušit
+
+[SettingsDialogExcept]
+1091=Pokud DM2 nefunguje s nìkterou aplikací správnì, zde mùžete pøidat pravidlo pro pøedejití problémùm (Reg. výrazy jsou k dispozici).
+1057=&Pøidat
+1058=&Odebrat
+1059=&Editovat
+
+[SettingsDialogExceptEdit]
+100=Editovat výjimku
+101=Pøidat výjimku
+1092=&Pravidlo:
+1093=Pøiøadit k
+1053=Názvu &titulku okna
+1054=&Názvu procesu
+1094=Nastavení vyjímek
+1055=Zakázat menu &Oblíbené položky
+1056=Z&akázat pl.ikonu, systray, skrýt, viditelnost
+1107=Zakázat modifikovat s&ys. menu aplikace
+1=&Uložit
+2=&Zrušit
+
+[SettingsDialogPlugins]
+1072=&Nastavení
+1073=&O pluginu
+1075=O&debrat
+1101=Získej více pluginù!
+
+[SettingsDialogWindowManager]
+0=Titulek okna
+1=Stav
+100=Žádný titulek nebo ukonèen
+101=Plovoucí ikona
+102=Systray ikona
+103=Schované okno
+104=Viditelnost %d%%
+1006=&Obnovit
+1008=Obnovit &vše
+1007=Zavøít o&kno
+1009=Aktuali&zovat
+
+[SettingsDialogAbout]
+1103=Homepage:
+
+

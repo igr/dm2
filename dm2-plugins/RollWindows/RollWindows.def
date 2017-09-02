@@ -1,0 +1,4 @@
+LIBRARY		RollWindows
+DESCRIPTION	"code by flyfancy"
+
+EXPORTS		dm2_get_interface

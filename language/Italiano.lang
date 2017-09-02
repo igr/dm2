@@ -1,0 +1,276 @@
+;Language version 1.20
+[LangOptions]
+LanguageName=Italiano
+FontName=MS Sans Serif
+FontSize=9
+
+[Messages]
+0=DM2 - Informazione
+100=Nome della regola o espressione regolare mancanti.
+101=Specificare un nome per la regola.
+102=Selezionare almeno un'opzione di eccezione.
+103=Impossibile eseguire l'applicazione. Verificare il percorso specificato.
+104=Questo plugin non dispone di opzioni di configurazione.
+105=Impossibile eliminare le sezioni 'Default' o 'Application'.
+106=Impossibile modificare le sezioni 'Default' o 'Application'.
+108=Impossibile modificare un separatore di menu.
+109=Specificare un nome per la sezione.
+110=Il nome specificato già esiste.
+111=Specificare un nome.
+112=I nomi non possono contenere il carattere '-'.
+113=Il percorso non può contenere i caratteri '|' o '-'.
+114=Nessun percorso specificato.
+115=Impossibile eseguire l'operazione richiesta.
+116=Risultato della prova della regola:
+117=impossibile trovare una finestra corrispondente.
+118=sono state trovate troppe finestre corrispondenti.
+119=trovata una finestra corrispondente.
+120=Risultato
+121=Disinstallare questo plugin?
+122=Tasti di scelta rapida già assegnati.
+
+[MenuFloat]
+0=O&pacità
+103=&Ripristina finestra
+104=&In primo piano
+100=&DM2
+105=&10%
+106=&20%
+107=&30%
+108=&40%
+109=&50%
+110=&60%
+111=&70%
+112=&80%
+113=&90%
+114=1&00%
+
+[MenuTray]
+103=&Ripristina finestra
+100=&DM2
+
+[MenuDM2]
+100=&DM2
+101=&Ripristina tutte le finestre
+102=&Esci
+
+[MenuResize]
+40001=640x480
+40002=800x600
+40003=1024x768
+40004=1280x960
+40005=100%
+40006=50%
+40007=30%
+40008=&Personalizza...
+
+;Note: system menu max 30 character
+[MenuSystem]
+500=Icona nell'area di n&otifica
+501=In primo pi&ano
+502=Riduci a icona &mobile
+503=Imposta opaci&tà
+513=&Disattiva
+514=Imposta p&riorità
+515=&Bassa
+516=&Inferiore al normale
+517=&Normale
+518=&Superiore al normale
+519=&Alta
+520=&Tempo reale
+
+[SettingsDialog]
+1=OK
+2=Annulla
+1000=E&sci
+0=Impostazioni
+102=Generale
+104=Avanzate
+116=Azioni
+105=Tasti di scelta rapida
+106=Menu preferiti
+108=Personalizzazione
+110=Eccezioni
+115=Plugin
+107=Gestore finestre
+103=Informazioni
+
+[SettingsDialogGeneral]
+100=Alto-sinistra
+101=Alto-destra
+102=Basso-sinistra
+103=Basso-destra
+104=Centro
+105=38x38 (Predefinito)
+106=30x30
+107=22x22
+1004=Mostra icone mobili in primo pia&no
+1009=Ripristina finestra in base alla posizione dell'icona &mobile
+1010=Rendi opache le icone mo&bili:
+1077=Posizione iniziale icona mobile:
+1078=Colore bordo icona mobile:
+1079=Colore sfondo icona mobile:
+1015=Crea anteprima della finestra nas&costa
+1019=A&datta anteprima a:
+1080=Largh.:
+1081=Altezza:
+1099=Opzioni immagine di anteprima
+1108=Dimensioni icona mobile:
+1113=Adotta stile di &Winamp per lo spostamento delle icone mobili
+
+[SettingsDialogAdvance]
+100=Per tutti gli utenti
+101=Solo per utente corrente
+103=Per impostazione predefinita, i nomi delle sezioni dei menu corrispondono ai nomi dei processi.
+1025=Aggiungi nuove voci al &menu di sistema
+1026=Identifica c&hiusura delle finestre nascoste
+1027=Attiva aggi&ornamento dinamico del titolo delle finestre
+1036=Esegui DM2 all'a&vvio del sistema
+1040=Mos&tra l'icona di DM2 con:
+1046=&Impedisci alle finestre di essere ripristinate fuori dal desktop
+1067=Imposta i nomi delle se&zioni dei menu con i titoli delle finestre
+1018=Mostra icona di DM2 nell'area di &notifica
+1095=Lingua:
+1098=Altre lingue
+1119=Cartelle aperte più di recente nel menu preferiti (0~15):
+
+[SettingsDialogAction]
+100=Nessuna azione
+101=Finestra in secondo piano
+102=Ridimensiona finestra
+103=Allinea finestra
+1115=Tasto/mouse
+1116=Puls. riduci
+1117=P. ingrandisci
+1118=Puls. chiudi
+1119=Clic destro
+1120=Shift+destro
+1121=Alt+destro
+1122=Ctrl+destro
+1123=Clic centrale
+1124=Shift+centr.
+1125=Alt+centrale
+1126=Ctrl+centrale
+
+[DialogResize]
+1=OK
+2=Annulla
+1129=Largh.:
+1130=Altezza:
+1133=Pi&xel
+1134=&Percentuale
+
+[SettingsDialogHotKey]
+0=Combinazione tasti
+1=Comando
+2=Parametri
+100=Nascondi finestra attiva
+101=Riduci finestra a icona nell'area di notifica
+102=Riduci finestra a icona mobile
+103=Aumenta opacità finestra
+104=Diminuisci opacità finestra
+105=Reimposta opacità finestra
+106=Attiva/disattiva finestra in primo piano
+107=Mostra menu preferiti
+108=Nascondi finestra specificata
+1022=&Aggiungi
+1023=&Elimina
+1024=&Modifica
+
+[SettingsDialogHotKeyEdit]
+100=Tasti di scelta rapida - Modifica
+101=Tasti di scelta rapida - Aggiungi
+1082=Tasti:
+1083=Comando:
+1111=Parametri:
+1=&Salva
+2=Annulla
+
+[SettingsDialogFav]
+1028=Attiva menu p&referiti
+1032=&Agg
+1033=Ri&m
+1034=Mo&d
+1029=Aggi&ungi
+1030=Rimuo&vi
+1031=M&odifica
+
+[SettingsDialogFavSection]
+100=Modifica sezione
+101=Aggiungi sezione
+1084=Sezione:
+1=&Salva
+2=Annulla
+
+[SettingsDialogFavMenu]
+100=Modifica voce menu
+101=Aggiungi voce menu
+1085=Nome:
+1086=Percorso:
+1064=So&ttomenu
+1066=Separatore &menu
+1=&Salva
+2=Annulla
+
+[SettingsDialogCustom]
+0=Nome regola
+1=Espressione regolare
+1087=Opzioni per personalizzare le icone mobili.
+1032=&Aggiungi
+1033=&Elimina
+1034=&Modifica
+1036=&Prova regola
+
+[SettingsDialogCustomEdit]
+100=Modifica regola
+101=Aggiungi regola
+1088=Nome regola:
+1089=Espressione reg.:
+1090=Personalizzazione
+1=&Salva
+2=Annulla
+
+[SettingsDialogExcept]
+1091=Se DM2 non funziona regolarmente con un'applicazione, creare una apposita regola di eccezione (è possibile usare espressioni regolari).
+1057=&Aggiungi
+1058=&Elimina
+1059=&Modifica
+
+[SettingsDialogExceptEdit]
+100=Modifica regola di eccezione
+101=Aggiungi regola di eccezione
+1092=Regola:
+1093=Corrispondente a
+1053=&Titolo finestra
+1054=&Nome processo
+1094=Funzioni da disattivare
+1055=&Menu preferiti
+1056=&Icona mobile/riduci a icona/nascondi/opac.
+1107=&Voci aggiuntive nel menu di sistema
+1=&Salva
+2=Annulla
+
+[SettingsDialogPlugins]
+1072=C&onfigura
+1073=&Info
+1075=&Disinstalla
+1101=Scarica altri plugin
+
+[SettingsDialogWindowManager]
+0=Titolo finestra
+1=Stato
+100=Nessun titolo o chiusa
+101=Icona mobile
+102=Icona nell'area di notifica
+103=Finestra nascosta
+104=Opacità al %d%%
+1006=&Ripristina
+1008=Ripristina &tutto
+1007=Chiudi &finestra
+1009=&Aggiorna
+
+[SettingsDialogAbout]
+1103=Sito Web:
+
+
+

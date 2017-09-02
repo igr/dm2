@@ -1,0 +1,274 @@
+;Language version 1.20
+[LangOptions]
+LanguageName=Turkish
+FontName=MS Sans Serif
+FontSize=9
+
+[mesajlar]
+0=DM2 bilgi
+100=Kural ismi veya düzenleme ifadesi kayýp
+101=Kural kaybý
+102=Hariç ayarlarý seçilmeli
+103=Özel uygulamalarý çalýþtýramaz!lutren yolu kontrol et
+104=Bu uygulamanýn onaylanmasý yok
+105=Standart uygulama çözülmesi yok
+106=Standart uygulama çalýþmýyor
+108=Ayýrma çizgisi çalýþmýyor
+109=Bölüm ismi yok
+110=Bölüm ismi zaten var
+111=Isim yok
+112=Lütfen ismin içinde '-' karakterini girme
+113=Lütfen yolun içinde '-'veya '|' karakterini girme
+114=Yol yok
+115=Bunu yapamazsýn
+116=Kural testi sonucu
+117=Uygun pencere bulunamadý
+118=Çok fazla uygun pencere bulundu
+119=Test tamam:uygun pencere bulundu
+120=Sonuç
+121=Bu uygulamadan vazgeçmek istediginizden eminmisiniz?
+122=Hotkey zaten mevcut
+
+[MenuFloat]
+0=Þ&effaf
+103=Pencereyi &onar
+104=&Üstüne
+100=&DM2
+105=&10%
+106=&20%
+107=&30%
+108=&40%
+109=&50%
+110=&60%
+111=&70%
+112=&80%
+113=&90%
+114=1&00%
+
+[MenuTray]
+103=Pencereyi &onar
+100=&DM2
+
+[MenuDM2]
+100=&DM2
+101=Bütün pencereyi &onar
+102=&Çýkýþ
+
+[MenuResize]
+40001=640x480
+40002=800x600
+40003=1024x768
+40004=1280x960
+40005=100%
+40006=50%
+40007=30%
+40008=&diger...
+
+;Note: system menu max 30 character
+[MenuSystem]
+500=&Tray'ý minimum et
+501=Herzaman &üzerinde
+502=&Float ikon
+503=Þeffaflýk
+513=&Seçilemez kýl
+514=&Öncelik
+515=&Düþük
+516=&Normalin altýnda
+517=&Normal
+518=Normalin &üstünde
+519=&Yüksek
+520=&Gerçek zaman
+
+[SettingsDialog]
+1=&Tamam
+2=&Iptal
+1000=Ç&ýkýþ
+0=Ayarlar
+102=Genel
+104=Ileri
+116=Haraket
+105=Hotkey
+106=Favoriler
+108=Özelleþtir
+110=Hariç
+115=Uygulama
+107=Pencere Yöneticisi
+103=Hakkýnda
+
+[SettingsDialogGeneral]
+100=Yukarý-Sol
+101=Yukarý-Sað
+102=Aþaðý-Sol
+103=Aþaðý-Sað
+104=Merkez
+105=38x38 (standart)
+106=30x30
+107=22x22
+1004=Float ikon herzaman &yukarýda
+1009=Float ikon pencere yerini t&akip eder 
+1010=Float ikon þ&effaf:
+1077=Float ikon baþlangýç posisyonu:
+1078=Float ikon çerçeve rengi:
+1079=Float ikon arka alan rengi:
+1015=Screens&hot saklanýrken yap 
+1019= &Uydur
+1080=Eni:
+1081=Boyu:
+1099=Screenshot Ayarlarý
+1108=Float ikon büyüklüðü:
+1113=Float ikon hareketi gibi &winamp
+
+[SettingsDialogAdvance]
+100=Bütün kullanýcýlar
+101=Þimdiki kullanýcý
+103=Sureç isimleri otomatik tanýnýr
+1025=Sistem menu &yenilenmeleri harakete geçirilir
+1026=Gizli pencereleri ortaya &çýkar
+1027=Pencere baþlýðýný &güncelle
+1036=Otomatik-çalýþmaya  &baþla
+1040=DM2 penceresine&Hotkey münkün kýl
+1046=Pencere baþlýklarýný &masaüstü dýþýnda gosterme
+1067=Favori menu bölümü ismiyle  &pencere baþlýðýný uydur
+1018=DM2 &tray ikonunu göster
+1095=Dil:
+1098=Daha fazla dil!
+1119=Favori menudeki yeni dosyalarýn sayýsý  (0~15):
+
+[SettingsDialogAction]
+100=Haraket yok
+101=Aþaðýdaki pencere
+102=Pencere büyüklüðünü deðiþtir
+103=Pencereyi düzenle
+1115=Anahtar/fare
+1116=Min düðme
+1117=Max düðme
+1118=Düðmeyi kapat
+1119=Saða týkla
+1120=Shift+sað
+1121=Alt+sað
+1122=Ctrl+sað
+1123=Ortaya týkla
+1124=Shift+orta
+1125=Alt+orta
+1126=Ctrl+orta
+
+[DialogResize]
+1=&Tamam
+2=&Iptal
+1129=Geniþlik:
+1130=Yukseklik:
+1133=Pi&xel
+1134=&Oran
+
+[SettingsDialogHotKey]
+0=HotKey
+1=Kumanda
+2=Ölçü
+100=Ön pencereyi sakla
+101=Pencereyi minimum tray et
+102=Pencerenin float ikon'nu minumum et
+103=Pencere seffaflýðýný arttýr
+104=Pencere seffaflýðýný azalt
+105=Pencere seffaflýðý tekkar ayarla
+106=Pencereyi one al
+107=Favori menüyü göster
+108=Özel pencereyi gizle
+1022=&Ekle
+1023=&Kaldýr
+1024=&Düzenle
+
+[SettingsDialogHotKeyEdit]
+100=Hotkey calýstýr
+101=HotKey ekle
+1082=HotKey:
+1083=Kumanda:
+1111=Deðer:
+1=&Kaydet
+2=&Iptal
+
+[SettingsDialogFav]
+1028=&Favori menuyu etkinleþtir
+1032=E&kle
+1033=S&il
+1034=O&nar
+1029=&Ekle
+1030=S&il 
+1031=&Düzenle
+
+[SettingsDialogFavSection]
+100=Seçeneði düzelt
+101=Seçeneði ekle
+1084=Bölüm:
+1=&Kaydet
+2=&Iptal
+
+[SettingsDialogFavMenu]
+100=Menu içeriðini düzelt
+101=Menüye parça ekle
+1085=Isim:
+1086=Yol:
+1064=&Alt menü
+1066=&Menu ayýrýcýsý
+1=&Kaydet
+2=&Iptal
+
+[SettingsDialogCustom]
+0=Kural ismi
+1=Kural ifadesi
+1087=Kullanýcý float ikon ayarlarý.
+1032=&Ekle
+1033=&Sil
+1034=&Düzenle
+1036=&Kural testi
+
+[SettingsDialogCustomEdit]
+100=Kuralý düzenle
+101=Kural ekle
+1088=Kural ismi:
+1089=Düzenleme ifadeleri:
+1090=Kullanýcý
+1=&Kaydet
+2=&Iptal
+
+[SettingsDialogExcept]
+1091=Þayet uygulamalarda hataya rastlarsanýz DM2'ye yeni kurallar ekleyebilirsiniz(duzenleme ifadeleri mevcut).
+1057=&Ekle
+1058=&Kaldýr
+1059=&Düzenle
+
+[SettingsDialogExceptEdit]
+100=Hariçteki kurallarý çalýþtýr
+101=Hariç için ifade ekle
+1092=Kural:
+1093=Uydur
+1053=Pencere &baþlýðý
+1054=&Sureç ismi
+1094=Hariç ayarlarý
+1055=&Favori menünün fonksiyonunu etkisiz kýl
+1056= Float/tray/gizli/þeffaflýk: etkisiz kýl
+1107= S&ystem Menü düzenlemesini etkisiz kýl
+1=&Kaydet
+2=&Iptal
+
+[SettingsDialogPlugins]
+1072=Þ&ekillendir
+1073=&Hakkýnda
+1075=&Kaldýr
+1101=Daha fazla uygulamalar
+
+[SettingsDialogWindowManager]
+0=Pencere baslýðý
+1=Statü
+100=Baþlýk yok veya kapalý
+101=Float ikon
+102=Tray ikon
+103=Pencereyi gizle
+104=Þeffaflýk %d%%
+1006=&Onar
+1008=&Hepsini onar
+1007=&Kapat
+1009=Y&enile
+
+[SettingsDialogAbout]
+1103=Homepage:
+

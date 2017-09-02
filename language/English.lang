@@ -1,0 +1,274 @@
+;Language version 1.20
+[LangOptions]
+LanguageName=English
+FontName=MS Sans Serif
+FontSize=9
+
+[Messages]
+0=DM2 Info
+100=Rule name or Reg expression is missing!
+101=Rule is missing!
+102=Exception settings must be selected!
+103=Can't run specified application! Please check the path.
+104=This plugin has no configuration!
+105=Can't delete 'default' or 'application' section!
+106=Can't edit 'default' or 'application' section!
+108=Can't edit menu separator flag!
+109=Section name is missing!
+110=Section name already exist!
+111=Name is missing!
+112=Please don't use character '-' in name!
+113=Please don't use character '|' or '-' in path!
+114=Path is missing!
+115=Can't do that!
+116=Rule test result:
+117=Can't find matching window!
+118=Too many matching windows found!
+119=Test ok: matching window found!
+120=Result
+121=Are you sure you want to uninstall this plugin?
+122=Hotkey already exist!
+
+[MenuFloat]
+0=O&pacity
+103=&Restore window
+104=&On top
+100=&DM2
+105=&10%
+106=&20%
+107=&30%
+108=&40%
+109=&50%
+110=&60%
+111=&70%
+112=&80%
+113=&90%
+114=1&00%
+
+[MenuTray]
+103=&Restore window
+100=&DM2
+
+[MenuDM2]
+100=&DM2
+101=&Restore all windows
+102=&Exit
+
+[MenuResize]
+40001=640x480
+40002=800x600
+40003=1024x768
+40004=1280x960
+40005=100%
+40006=50%
+40007=30%
+40008=&Other...
+
+;Note: system menu max 30 character
+[MenuSystem]
+500=Minimize to &tray
+501=Always on to&p
+502=To &floating icon
+503=Opacity
+513=&Disable
+514=&Priority
+515=&Idie
+516=&Below Normal
+517=&Normal
+518=&Above Normal
+519=&High
+520=&RealTime
+
+[SettingsDialog]
+1=&OK
+2=&Cancel
+1000=E&xit
+0=Settings
+102=General
+104=Advance
+116=Action
+105=Hotkey
+106=Favorites Menu
+108=Custom
+110=Exception
+115=Plugins
+107=Windows Manager
+103=About
+
+[SettingsDialogGeneral]
+100=Top-Left
+101=Top-Right
+102=Bottom-Left
+103=Bottom-Right
+104=Center
+105=38x38 (Default)
+106=30x30
+107=22x22
+1004=Float icon default on &top
+1009=Window position fo&llows float icon
+1010=Float icon o&pacity:
+1077=Float icon init position:
+1078=Float icon border color:
+1079=Float icon background color:
+1015=Make screens&hots when hiding
+1019=Stretch to &fit
+1080=Width:
+1081=Height:
+1099=Screenshots Settings
+1108=Float icon size:
+1113=Float icon moving style like &winamp
+
+[SettingsDialogAdvance]
+100=All users
+101=Current user
+103=Process names are matched by default.
+1025=Enable &modification of system menu
+1026=Enable hidden window closing &detection
+1027=Enable window title dynamic &update
+1036=Auto-run at &startup for
+1040=Enable show DM2 window &hotkey
+1046=&Prevent moving out of desktop when float icon is restored.
+1067=Favorite menu section name matched with &window title.
+1018=DM2 show &tray icon
+1095=Language:
+1098=Get more languages!
+1119=Number of recent folders in Favorite Menu (0~15):
+
+[SettingsDialogAction]
+100=None Action
+101=Window send to bottom
+102=Window resize
+103=Window align
+1115=Key/Mouse
+1116=Min button
+1117=Max button
+1118=Close button
+1119=Right Click
+1120=Shift+Right
+1121=Alt+Right
+1122=Ctrl+Right
+1123=Middle Click
+1124=Shift+Middle
+1125=Alt+Middle
+1126=Ctrl+Middle
+
+[DialogResize]
+1=&OK
+2=&Cancel
+1129=Width:
+1130=Heigth:
+1133=Pi&xel
+1134=&Percent
+
+[SettingsDialogHotKey]
+0=HotKey
+1=Command
+2=Param
+100=Hide foreground window
+101=Minimize window to tray
+102=Minimize window to float icon
+103=Increase window opacity
+104=Decrease window opacity
+105=Reset window opacity
+106=Toggle window on top
+107=Show favorite menu
+108=Hide specified window
+1022=&Add
+1023=&Remove
+1024=&Edit
+
+[SettingsDialogHotKeyEdit]
+100=Edit HotKey
+101=Add HotKey
+1082=HotKey:
+1083=Command:
+1111=Param:
+1=&Save
+2=&Cancel
+
+[SettingsDialogFav]
+1028=Enable &favorites menu
+1032=A&dd
+1033=De&l
+1034=Ed&it
+1029=&Add
+1030=Dele&te
+1031=&Edit
+
+[SettingsDialogFavSection]
+100=Edit section
+101=Add section
+1084=Section:
+1=&Save
+2=&Cancel
+
+[SettingsDialogFavMenu]
+100=Edit menu item
+101=Add menu item
+1085=Name:
+1086=Path:
+1064=is s&ub menu
+1066=is &menu separator
+1=&Save
+2=&Cancel
+
+[SettingsDialogCustom]
+0=Rule Name
+1=Reg Expression
+1087=Custom float icon settings.
+1032=&Add
+1033=&Delete
+1034=&Edit
+1036=&Test rule
+
+[SettingsDialogCustomEdit]
+100=Edit rule
+101=Add rule
+1088=Rule Name:
+1089=Reg Expressions:
+1090=Custom
+1=&Save
+2=&Cancel
+
+[SettingsDialogExcept]
+1091=If DM2 is not working fine with some application, please add rule to avoid problems (Reg Expressions are availiable).
+1057=&Add
+1058=&Remove
+1059=&Edit
+
+[SettingsDialogExceptEdit]
+100=Edit exception rule
+101=Add exception rule
+1092=Rule:
+1093=Match to
+1053=Window &title
+1054=&Process name
+1094=Exception settings
+1055=Disable &favorites menu function
+1056=&Disable float/tray/hide/opacity function
+1107=Disable modification of S&ystem Menu
+1=&Save
+2=&Cancel
+
+[SettingsDialogPlugins]
+1072=C&onfig
+1073=&About
+1075=&Uninstall
+1101=Get more plugins!
+
+[SettingsDialogWindowManager]
+0=Window Title
+1=Status
+100=No title or closed
+101=Float icon
+102=Tray icon
+103=Hidden window
+104=Opacity %d%%
+1006=&Restore
+1008=Restore &All
+1007=Close &Window
+1009=Re&fresh
+
+[SettingsDialogAbout]
+1103=Homepage:
+

@@ -1,0 +1,11 @@
+LIBRARY		DM2
+DESCRIPTION	"DM2 coded by weird & flyfancy"
+
+EXPORTS		EnableDM2
+EXPORTS		DisableDM2
+EXPORTS		EnableDM2Menu
+EXPORTS		DisableDM2Menu
+EXPORTS		EnableFavMenu
+EXPORTS		DisableFavMenu
+EXPORTS		getCompatibleSystemMenu
+EXPORTS		CreateMenuFromString

@@ -1,0 +1,4 @@
+LIBRARY		CloseMonitor
+DESCRIPTION	"fast close you monitor. code by flyfancy"
+
+EXPORTS		dm2_get_interface

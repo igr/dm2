@@ -1,0 +1,187 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Neutral resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_NEU)
+#ifdef _WIN32
+LANGUAGE LANG_NEUTRAL, SUBLANG_NEUTRAL
+#pragma code_page(936)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DLG_OPTION DIALOGEX 0, 0, 187, 140
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "Virtual Desktop Option"
+FONT 8, "Tahoma", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "&OK",IDOK,36,124,50,14
+    PUSHBUTTON      "&Cancel",IDCANCEL,99,124,50,14
+    CONTROL         "&Enable Virtual Desktop",IDC_CHECK_ENABLE,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,2,7,87,10
+    LTEXT           "Count (2~8):",IDC_STATIC,107,8,44,8
+    EDITTEXT        IDC_EDIT_COUNT,156,6,27,12,ES_AUTOHSCROLL | ES_NUMBER | 
+                    NOT WS_BORDER,WS_EX_STATICEDGE
+    GROUPBOX        "Desktop Names",IDC_STATIC,2,23,183,78
+    EDITTEXT        IDC_EDIT_D1,19,34,59,12,ES_AUTOHSCROLL | NOT WS_BORDER,
+                    WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT_D2,116,34,59,12,ES_AUTOHSCROLL | NOT WS_BORDER,
+                    WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT_D3,19,51,59,12,ES_AUTOHSCROLL | NOT WS_BORDER,
+                    WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT_D4,116,51,59,12,ES_AUTOHSCROLL | NOT WS_BORDER,
+                    WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT_D5,19,68,59,12,ES_AUTOHSCROLL | NOT WS_BORDER,
+                    WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT_D6,116,68,59,12,ES_AUTOHSCROLL | NOT WS_BORDER,
+                    WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT_D7,19,84,59,12,ES_AUTOHSCROLL | NOT WS_BORDER,
+                    WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT_D8,116,84,59,12,ES_AUTOHSCROLL | NOT WS_BORDER,
+                    WS_EX_STATICEDGE
+    LTEXT           "1.",IDC_STATIC,7,37,9,8
+    LTEXT           "2.",IDC_STATIC,104,37,9,8
+    LTEXT           "3.",IDC_STATIC,7,54,9,8
+    LTEXT           "4.",IDC_STATIC,104,54,9,8
+    LTEXT           "5.",IDC_STATIC,7,71,9,8
+    LTEXT           "6.",IDC_STATIC,104,71,9,8
+    LTEXT           "7.",IDC_STATIC,7,87,9,8
+    LTEXT           "8.",IDC_STATIC,104,87,9,8
+    CONTROL         "&Show Virtual Desktop icon in tray",IDC_CHECK_TRAY,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,2,104,121,10
+END
+
+IDD_DLG_ARRANGE DIALOGEX 0, 0, 249, 124
+STYLE DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "Arrange Virtual Desktop"
+FONT 8, "Tahoma"
+BEGIN
+    LISTBOX         IDC_LIST_VDITEM,6,18,238,85,LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+    CONTROL         "Tab_VirtualDesktop",IDC_TAB_VD,"SysTabControl32",0x0,2,
+                    1,246,105
+    PUSHBUTTON      "&Close",IDOK,60,108,50,14
+    PUSHBUTTON      "&Set Active",ID_SETACTIVE,139,108,50,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_VD1                 ICON    DISCARDABLE     "res\\VDesk1.ico"
+IDI_VD2                 ICON    DISCARDABLE     "res\\VDesk2.ico"
+IDI_VD3                 ICON    DISCARDABLE     "res\\VDesk3.ico"
+IDI_VD4                 ICON    DISCARDABLE     "res\\VDesk4.ico"
+IDI_VD5                 ICON    DISCARDABLE     "res\\VDesk5.ico"
+IDI_VD6                 ICON    DISCARDABLE     "res\\VDesk6.ico"
+IDI_VD7                 ICON    DISCARDABLE     "res\\VDesk7.ico"
+IDI_VD8                 ICON    DISCARDABLE     "res\\VDesk8.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU_TRAY MENU DISCARDABLE 
+BEGIN
+    POPUP "Hi World! :)"
+    BEGIN
+        MENUITEM "&Option",                     ID_OPTION
+        MENUITEM SEPARATOR
+        MENUITEM "&Arrange...",                 ID_ARRANGE
+        MENUITEM "&Hide Tray icon",             ID_HIDETRAY
+        MENUITEM SEPARATOR
+        MENUITEM "List Virtual Desktop",        ID_LIST, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "&Disable Virtual Desktop",    ID_DISABLE
+    END
+END
+
+IDR_MENU_ARRANGE MENU DISCARDABLE 
+BEGIN
+    POPUP "Hi World! :)"
+    BEGIN
+        POPUP "&Send To"
+        BEGIN
+            MENUITEM "&All VirtualDesktop",         ID_ST_ALLVD
+            MENUITEM SEPARATOR
+            MENUITEM "Virtual Desktop List",        ID_VDLIST, GRAYED
+        END
+    END
+END
+
+#endif    // Neutral resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

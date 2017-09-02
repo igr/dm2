@@ -1,0 +1,273 @@
+;Language version 1.20 by Denis Vanneste <pzi-1i62[at]myamail.com> / upd. Rasqual Twilight <rasqualtwilight@users.sf.net>
+[LangOptions]
+LanguageName=Français
+FontName=MS Sans Serif
+FontSize=9
+
+[Messages]
+0=DM2 Info
+100=Veuillez spécifier un nom de règle et une expression rationelle.
+101=Règle non spécifiée !
+102=Vous devez configurer l'exception !
+103=Cette application ne peut être lancée ! Vérifiez que vous avez correctement entré le chemin de l'application.
+104=Aucune configuration n'est requise pour ce plug-in.
+105=Les sections 'Default' et 'Application' ne peuvent être supprimées !
+106=Les noms de section 'Default' et 'Application' ne sont pas modifiables !
+108=Les séparateurs ne sont pas éditables !
+109=Veuillez spécifier un nom de section !
+110=Ce nom de section existe déjà !
+111=Veuillez spécifier un nom de favori !
+112=Le nom ne doit pas contenir le caractère '-' !
+113=Le chemin ne peut pas contenir les caractères '|' ou '-' !
+114=Aucun chemin spécifié !
+115=Action impossible !
+116=Résultat du test de la règle :
+117=La règle ne s'applique à aucune fenêtre !
+118=La règle peut s'appliquer à trop de fenêtres à la fois !
+119=Test OK : la règle peut s'appliquer.
+120=Résultat
+121=Voulez-vous vraiment désinstaller ce plug-in ?
+122=Le raccourci existe déjà !
+
+[MenuFloat]
+0=O&pacité
+103=&Restaurer la fenêtre
+104=Toujours &visible
+100=&DM2
+105=&10%
+106=&20%
+107=&30%
+108=&40%
+109=&50%
+110=&60%
+111=&70%
+112=&80%
+113=&90%
+114=1&00%
+
+[MenuTray]
+103=&Restaurer la fenêtre
+100=&DM2
+
+[MenuDM2]
+100=&DM2
+101=&Restaurer toutes les fenêtres
+102=&Quitter
+
+[MenuResize]
+40001=640x480
+40002=800x600
+40003=1024x768
+40004=1280x960
+40005=100%
+40006=50%
+40007=30%
+40008=&Autre...
+
+;Note: system menu max 30 character
+[MenuSystem]
+500=Réduire en &notification
+501=Toujours &visible
+502=Réduire en icône &flottante
+503=Opacité
+513=&Désactiver
+514=&Priorité
+515=&Basse
+516=&Inférieure à la normale
+517=&Normale
+518=&Supérieure à la normale
+519=&Haute
+520=&Temps réel
+
+[SettingsDialog]
+1=&OK
+2=&Annuler
+1000=&Quitter
+0=Configuration
+102=Général
+104=Avancé
+116=Combinaisons Souris
+105=Raccourcis clavier
+106=Menu des Favoris
+108=Icônes personnalisées
+110=Exceptions
+115=Plug-ins
+107=Gestionnaire de fenêtres
+103=A propos
+
+[SettingsDialogGeneral]
+100=En haut à gauche
+101=En haut à droite
+102=En bas à gauche
+103=En bas à droite
+104=Au centre
+105=38x38 (Défaut)
+106=30x30
+107=22x22
+1004=Icône flo&ttante toujours visible par défaut.
+1009=Position de la &fenêtre liée à celle de l'icône flottante.
+1010=O&pacité de l'icône flottante :
+1077=Position de l'icône flottante :
+1078=Bordure de l'icône flottante :
+1079=Fond de l'icône flottante :
+1015=Créer un aperçu lors de la ré&duction.
+1019=Aj&uster aux dimensions :
+1080=Larg. :
+1081=Haut. :
+1099=Configuration des aperçus
+1108=Taille de l'icône flottante :
+1113=Mouvement des icônes flottantes dans le style de &Winamp.
+
+[SettingsDialogAdvance]
+100=tous les utilisateurs
+101=l'utilisateur actuel
+103=Par défaut, le nom des sections est basé sur le nom du processus.
+1025=Autoriser la &modification du menu système.
+1026=Activer la &détection de la fermeture des fenêtres cachées.
+1027=Activer la mise à jo&ur dynamique du titre de fenêtre.
+1036=Démarrer avec Window&s pour
+1040=Activer le &raccourci de DM2.
+1046=La fenêtre restaurée depuis l'icône flottante ne sort &pas du bureau.
+1067=Nom des sections des &Favoris basé sur le titre des fenêtres.
+1018=Afficher l'icône de DM2 dans la zone de no&tification.
+1095=Langue :
+1098=Obtenir d'autres langues...
+1119=Taille de l'historique des derniers dossiers dans le menu Favoris (0~15):
+
+[SettingsDialogAction]
+100=Ne rien faire
+101=Fenêtre envoyer en arrière-plan (HWND_BOTTOM)
+102=Fenêtre redimensionner
+103=Fenêtre aligner
+1115=Comb. Souris
+1116=B. Réduire
+1117=B. Agrandir
+1118=B. Fermer
+1119=Clic Droit
+1120=Maj+Droit
+1121=Alt+Droit
+1122=Ctrl+Droit
+1123=Bout. Molette
+1124=Maj+Molette
+1125=Alt+Molette
+1126=Ctrl+Molette
+
+[DialogResize]
+1=&OK
+2=&Annuler
+1129=Largeur :
+1130=Hauteur :
+1133=Pi&xels
+1134=% (&P)
+
+[SettingsDialogHotKey]
+0=Raccourci
+1=Commande
+2=Param.
+100=Cacher la fenêtre située au premier plan
+101=Réduire la fenêtre dans la zone de notification
+102=Réduire la fenêtre en icône flottante
+103=Augmenter l'opacité de la fenêtre
+104=Réduire l'opacité de la fenêtre
+105=Réinitialiser l'opacité de la fenêtre
+106=Activer/désactiver 'Toujours visible'
+107=Afficher le menu des Favoris
+108=Cacher la fenêtre spécifiée
+1022=Ajo&uter
+1023=&Supprimer
+1024=&Editer
+
+[SettingsDialogHotKeyEdit]
+100=Editer le raccourci
+101=Ajouter un raccourci
+1082=Raccourci :
+1083=Commande :
+1111=Param. :
+1=&Enregistrer
+2=&Annuler
+
+[SettingsDialogFav]
+1028=Activer le &menu
+1032=Ajou&t
+1033=Su&pp.
+1034=Ed&it.
+1029=Ajo&uter
+1030=&Supprimer
+1031=&Editer
+
+[SettingsDialogFavSection]
+100=Editer la section
+101=Ajouter une section
+1084=Section :
+1=&Enregistrer
+2=&Annuler
+
+[SettingsDialogFavMenu]
+100=Editer l'item de menu
+101=Ajouter un item de menu
+1085=Nom :
+1086=Chemin :
+1064=S&ous-menu
+1066=&Séparateur
+1=&Enregistrer
+2=&Annuler
+
+[SettingsDialogCustom]
+0=Nom de la règle
+1=Expression rationnelle (regexp)
+1087=Configuration des icônes flottantes personnalisées.
+1032=Ajo&uter
+1033=&Supprimer
+1034=&Editer
+1036=&Tester
+
+[SettingsDialogCustomEdit]
+100=Editer la règle
+101=Ajouter une règle
+1088=Nom de la règle :
+1089=Expr. Rat. :
+1090=Personnalisé
+1=&Enregistrer
+2=&Annuler
+
+[SettingsDialogExcept]
+1091=Si DM2 fonctionne mal avec une application, évitez les problèmes en ajoutant une règle d'exception (vous pouvez utiliser les expressions rationnelles).
+1057=Ajo&uter
+1058=&Supprimer
+1059=&Editer
+
+[SettingsDialogExceptEdit]
+100=Editer la règle d'exception
+101=Ajouter une règle d'exception
+1092=Règle :
+1093=Appliquer la règle à
+1053=&Titre de la fenêtre
+1054=Nom du &processus
+1094=Configuration de l'exception
+1055=Désactiver le menu des &Favoris
+1056=&Désactiver icône flot./notif./cacher/opacité
+1107=Désactiver la modification du menu S&ystème
+1=&Enregistrer
+2=&Annuler
+
+[SettingsDialogPlugins]
+1072=C&onfigurer
+1073=A &propos
+1075=&Désinstaller
+1101=Obtenir d'autres plug-ins...
+
+[SettingsDialogWindowManager]
+0=Titre de la fenêtre
+1=Statut
+100=Sans titre ou fermée
+101=Icône flottante
+102=Icône de notification
+103=Fenêtre cachée
+104=Opacité %d%%
+1006=&Restaurer
+1008=Restaurer &tout
+1007=&Fermer
+1009=A&ctualiser
+
+[SettingsDialogAbout]
+1103=Site Web :

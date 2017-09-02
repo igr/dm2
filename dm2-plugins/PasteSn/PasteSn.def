@@ -1,0 +1,4 @@
+LIBRARY		PasteSn
+DESCRIPTION	"DialogMate2 plugins - Paste Serials Number module. code by flyfancy"
+
+EXPORTS		dm2_get_interface

@@ -1,0 +1,276 @@
+;Language version 1.20
+;Slovak translation
+;By Robert Repka
+[LangOptions]
+LanguageName=Slovensky (alt)
+FontName=MS Sans Serif
+FontSize=9
+
+[Messages]
+0=DM2 Info
+100=Chıba názov pravidla alebo Reg expression!
+101=Chıba pravidlo!
+102=Nastavenie vınimky musí by zvolené!
+103=Nedá sa spusti zvolená aplikácia. Skontrolujte cestu.
+104=Tento plugin nie je nakonfigurovanı!
+105=Neviem zmaza 'default' alebo sekciu 'application'!
+106=Neviem upravi 'default' alebo sekciu 'application'!
+108=Neviem upravi príznak odde¾ovaèa menu!
+109=Chıba názov sekcie!
+110=Tento názov sekcie u existuje!
+111=Chıba názov!
+112=Nepouívajte znak '-' v mene!
+113=Nepouívajte znak '|' alebo '-' v ceste!
+114=Nesprávna cesta!
+115=Neviem vykona!
+116=Test pravidla:
+117=Neviem nájs príslušné okno!
+118=Príliš mnoho nájdenıch okien!
+119=Test ok: Príslušné okno bolo nájdené!
+120=Vısledok
+121=Naozaj chcete odinštalova tento plugin?
+122=Klávesová skratka u existuje!
+
+[MenuFloat]
+0=&Priesvitnos
+103=&Obnov okno
+104=&Vdy navrchu
+100=&DM2
+105=&10%
+106=&20%
+107=&30%
+108=&40%
+109=&50%
+110=&60%
+111=&70%
+112=&80%
+113=&90%
+114=1&00%
+
+[MenuTray]
+103=&Obnov okno
+100=&DM2
+
+[MenuDM2]
+100=&DM2
+101=&Obnov všetky okná
+102=&Exit
+
+[MenuResize]
+40001=640x480
+40002=800x600
+40003=1024x768
+40004=1280x960
+40005=100%
+40006=50%
+40007=30%
+40008=&Iné...
+
+;Note: system menu max 30 character
+[MenuSystem]
+500=Minimalizuj do &lišty
+501=&Vdy navrchu
+502=Do &Plávajúcej ikony
+503=Priesvitnos
+513=&Zruš
+514=&Priorita
+515=&Spí
+516=&Menej ako normálna
+517=&Normálna
+518=V&iac ako normálna
+519=&Vysoká
+520=&RealTime
+
+[SettingsDialog]
+1=&OK
+2=&Zruš
+1000=E&xit
+0=Nastavenia
+102=Všeobecné
+104=Rozšírené
+116=Udalos
+105=Skratkové klávesy
+106=Ob¾úbené
+108=Vlastné
+110=Vınimky
+115=Zásuvné moduly
+107=Windows manager
+103=O aplikácii
+
+[SettingsDialogGeneral]
+100=Hore-v¾avo
+101=Hore-vpravo
+102=Dole-v¾avo
+103=Dole-vpravo
+104=V strede
+105=38x38 (Default)
+106=30x30
+107=22x22
+1004=Plávajúca ikona štan&dardne navrchu
+1009=Poloha okna sleduje pl&ávajúcu ikonu
+1010=Priesvit&nos plávajúcej ikony:
+1077=Zaèiatoèná poloha plávajúcej ikony:
+1078=Farba okraja plávajúcej ikony:
+1079=Farba pozadia plávajúcej ikony:
+1015=Urob fotku ob&razovky pri skrıvaní
+1019=Roztiahni &na maximum
+1080=Šírka:
+1081=Vıška:
+1099=Nastavenie fotky obrazovky
+1108=Ve¾kos plávajúcej ikony:
+1113=Štıl pohybu plávajúcej ikony ako vo &winamp-e
+
+[SettingsDialogAdvance]
+100=Všetci uívatelia
+101=Aktuálny uívate¾
+103=Štandardne sú porovnávané názvy procesov.
+1025=Aktivuj &modifikáciu systémového menu
+1026=Aktivuj &detekciu zavretia skytého okna
+1027=Aktivuj dynamickú aktualizáciu &názvu okna
+1036=Automatické spúšani&e pri štarte
+1040=Aktivuj zobrazenie klávesovıch skratiek DM2
+1046=&Zabráò presunutiu mimo plochu pri obnovení z plávajúcej ikony.
+1067=Favorite menu section name matched with &window title.
+1018=DM2 zobrazuje &ikonu v lište
+1095=Jazyk:
+1098=Získaj viac jazykov!
+1119=Poèet zodpovedajúcich adresárov v ob¾úbenıch (0~15):
+
+[SettingsDialogAction]
+100=iadna akcia
+101=Odosla okno do tlaèidla
+102=Zmena ve¾kosti okna
+103=Zarovnanie okna
+1115=Kl./Myš
+1116=Min 
+1117=Max 
+1118=Zavretie
+1119=Pravı klik
+1120=Shift+vpravo
+1121=Alt+vpravo
+1122=Ctrl+vpravo
+1123=Strednı klik
+1124=Shift+Stred
+1125=Alt+Stred
+1126=Ctrl+Stred
+
+[DialogResize]
+1=&OK
+2=&Zruš
+1129=Šírka:
+1130=Vıška:
+1133=Pi&xelov
+1134=&Percent
+
+[SettingsDialogHotKey]
+0=Klávesová skratka
+1=Príkaz
+2=Parameter
+100=Skry okno v popredí
+101=Minimalizuj okno do lišty
+102=Minimalizuj okno do plávajúcej ikony
+103=Zvıš priesvitnos okna
+104=Zní priesvitnos okna
+105=Resetuj priesvitnos okna
+106=Prepni okno navrch
+107=Uká ob¾úbené
+108=Ukry zvolené okno
+1022=&Pridaj
+1023=&Odober
+1024=&Uprav
+
+[SettingsDialogHotKeyEdit]
+100=Uprav klávesovú skratku
+101=Pridaj klávesovú skratku
+1082=Klávesová skratka:
+1083=Príkaz:
+1111=Parameter:
+1=&Ulo
+2=&Zruš
+
+[SettingsDialogFav]
+1028=Aktivuj ob¾ú&bené
+1032=&Pridaj
+1033=&Vyma
+1034=&Uprav
+1029=P&ridaj
+1030=V&yma
+1031=Upr&av
+
+[SettingsDialogFavSection]
+100=Uprav sekciu
+101=Pridaj sekcia
+1084=Sekcia:
+1=&Ulo
+2=&Zruš
+
+[SettingsDialogFavMenu]
+100=Uprav poloku menu
+101=Pridaj poloku menu
+1085=Názov:
+1086=Cesta:
+1064=je s&ub menu
+1066=je odde¾ovaè &menu 
+1=&Ulo
+2=&Zruš
+
+[SettingsDialogCustom]
+0=Názov pravidla
+1=Reg Expression
+1087=vlastné nastavenie plávajúcej ikony.
+1032=&Pridaj
+1033=&Vyma
+1034=&Uprav
+1036=&Testuj pravidlo
+
+[SettingsDialogCustomEdit]
+100=Uprav pravidlo
+101=Pridaj pravidlo
+1088=Názov pravidla:
+1089=Reg Expressions:
+1090=Vlastné
+1=&Ulo
+2=&Zruš
+
+[SettingsDialogExcept]
+1091=Ak DM2 nepracuje správne s niektorımi aplikáciami, pridajte pravidlo.
+1057=&Pridaj
+1058=&Odober
+1059=&Uprav
+
+[SettingsDialogExceptEdit]
+100=Uprav pravidlo vınimky
+101=Pridaj pravidlo vınimky
+1092=Pravidlo:
+1093=Zodpovedá
+1053=Názov &okna
+1054=Názov &procesu
+1094=Nastavenia vınimky
+1055=Deaktivuj o&b¾ubené
+1056=&Deaktivuj plávanie/lišta/ukry/priesvitnos
+1107=Znemoni úpravy s&ystémového menu
+1=&Ulo
+2=&Zruš
+
+[SettingsDialogPlugins]
+1072=K&onfig.
+1073=&Info
+1075=O&dinšt.
+1101=Stiahni pluginy!
+
+[SettingsDialogWindowManager]
+0=Názov okna
+1=Aktuálny stav
+100=Bez názvu, alebo zavreté
+101=Plávajúca ikona
+102=Ikona v lište
+103=Ukryté okno
+104=Priesvitnos %d%%
+1006=&Obnov
+1008=Obnov &všetko
+1007=Zavri o&kno
+1009=R&efresh
+
+[SettingsDialogAbout]
+1103=Homepage:
+

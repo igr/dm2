@@ -1,0 +1,273 @@
+;Language version 1.20 by A. Krumpholz (http://www.cappoodoo.de)
+[LangOptions]
+LanguageName=Deutsch
+FontName=Tahoma
+FontSize=8
+
+[Messages]
+0=DM2 Info
+100=Regelname oder Regulärer Ausdruck fehlt.
+101=Regelname fehlt.
+102=Ausnahmeeinstellungen müssen gewählt werden.
+103=Applikation kann nicht gestartet werden! Bitte Pfad prüfen.
+104=Diese Erweiterung kann nicht konfiguriert werden.
+105=Bereich 'Standard' oder 'Applikationen' kann nicht gelöscht werden.
+106=Bereich 'Standard' oder 'Applikationen' kann nicht bearbeitet werden.
+108=Trennlinie kann nicht bearbeitet werden.
+109=Name des Bereichs fehlt.
+110=Bereichsname existiert schon.
+111=Name fehlt.
+112=Bitte kein '-' im Namen verwenden.
+113=Bitte kein '|' oder '-' im Pfad verwenden.
+114=Pfad fehlt.
+115=Kann nicht ausgeführt werden.
+116=Ergebnis des Tests der Regel:
+117=Passendes Fenster nicht gefunden.
+118=Zu viele passenden Fenster gefunden.
+119=Test ok: Passendes Fenster gefunden.
+120=Ergebnis
+121=Soll die Erweiterung deinstalliert werden?
+122=Hotkey bereits vorhanden.
+
+[MenuFloat]
+0=T&ransparenz
+103=Fenster &wiederherstellen
+104=&Nach oben
+100=&DM2
+105=&10%
+106=&20%
+107=&30%
+108=&40%
+109=&50%
+110=&60%
+111=&70%
+112=&80%
+113=&90%
+114=1&00%
+
+[MenuTray]
+103=Fenster &wiederherstellen
+100=&DM2
+
+[MenuDM2]
+100=&DM2
+101=Alle Fenster &wiederherstellen
+102=&Beenden
+
+[MenuResize]
+40001=640x480
+40002=800x600
+40003=1024x768
+40004=1280x960
+40005=100%
+40006=50%
+40007=30%
+40008=&Andere...
+
+;Note: system menu max 30 character
+[MenuSystem]
+500=In den &Tray minimieren
+501=Immer im &Vordergrund
+502=&Float Icon®
+503=T&ransparenz
+513=&Abschalten
+514=&Priorität
+515=&Niedrig
+516=&Niedriger als Normal
+517=&Normal
+518=&Höher als Normal
+519=&Hoch
+520=&Echtzeit
+
+[SettingsDialog]
+1=&OK
+2=&Abbruch
+1000=&Beenden
+0=Einstellungen
+102=Allgemein
+104=Erweitert
+116=Aktion
+105=Hotkey
+106=Favoriten
+108=Benutzerdefiniert
+110=Ausnahmen
+115=Erweiterungen
+107=Fenstermanager
+103=Über
+
+[SettingsDialogGeneral]
+100=oben links
+101=oben rechts
+102=unten links
+103=unten rechts
+104=mittig
+105=38x38 (Standard)
+106=30x30
+107=22x22
+1004=Float Icon® &immer im Vordergrund
+1009=Fensterposition fo&lgt Float Icon®
+1010=Float Icon® T&ransparenz:
+1077=Float Icon® Startposition:
+1078=Float Icon® Rahmenfarbe:
+1079=Float Icon® Hintergrundfarbe:
+1015=Screens&hot beim Ausblenden
+1019=&Anpassen
+1080=Breite:
+1081=Höhe:
+1099=Screenshot Einstellungen
+1108=Float Icon® Größe:
+1113=Bewegungsweise von Float Icon® wie &WinAmp
+
+[SettingsDialogAdvance]
+100=alle Benutzer
+101=aktiver Benutzer
+103=Prozessnamen werden automatisch erkannt.
+1025=System&menü-Modifizierung aktivieren
+1026=Erkennung des Schließens &ausgeblendeter Fenster aktivieren
+1027=&Dynamisches Anpassen des Fenstertitels aktivieren
+1036=Auto&start von DM2 für
+1040=&Hotkey für DM2 Einstellungsfenster
+1046=Float Icon®s außerhalb des &Desktops verhindern.
+1067=Bereichsname der Favoriten mit &Fenstertitel angleichen
+1018=DM2 &Traysymbol anzeigen
+1095=Sprache:
+1098=Weitere Sprachen...
+1119=Anzahl der letzten Ordner im Favoritenmenü (0~15):
+
+[SettingsDialogAction]
+100=Keine Aktion
+101=Fenster nach unten
+102=Fenstergröße verändern
+103=Fensterausrichtung
+1115=Key/Maus
+1116=Min Schaltfl.
+1117=Max Schaltfl.
+1118=Schließen Schaltfl.
+1119=Rechtsklick
+1120=Shift+Rechts
+1121=Alt+Rechts
+1122=Strg+Rechts
+1123=Mittelklick
+1124=Shift+Mittel
+1125=Alt+Mittel
+1126=Strg+Mittel
+
+[DialogResize]
+1=&OK
+2=&Abbrechen
+1129=Breite:
+1130=Höhe:
+1133=Pi&xel
+1134=&Prozent
+
+[SettingsDialogHotKey]
+0=Hotkey
+1=Kommando
+2=Parameter
+100=Vordergrundfenster ausblenden
+101=Fenster in den Tray minimieren
+102=Fenster zu 'Float Icon®' minimieren
+103=Fenstertransparenz erhöhen
+104=Fenstertransparenz verringern
+105=Fenstertransparenz zurücksetzen
+106=Immer im Vordergrund
+107=Favoritenmenü anzeigen
+108=Gewähltes Fenster ausblenden
+1022=&Hinzufügen
+1023=&Entfernen
+1024=&Bearbeiten
+
+[SettingsDialogHotKeyEdit]
+100=Hotkey bearbeiten
+101=Hotkey hinzufügen
+1082=Hotkey:
+1083=Kommando:
+1111=Parameter:
+1=&Speichern
+2=&Abbrechen
+
+[SettingsDialogFav]
+1028=&Favoritenmenü aktiv...
+1032=Hinz&ufügen
+1033=L&öschen
+1034=Bearbeiten
+1029=&Hinzufügen
+1030=&Löschen
+1031=&Bearbeiten
+
+[SettingsDialogFavSection]
+100=Bereich bearbeiten
+101=Bereich hinzufügen
+1084=Bereich:
+1=&Speichern
+2=&Abbrechen
+
+[SettingsDialogFavMenu]
+100=Menüinhalt bearbeiten
+101=Menüpunkt hinzufügen
+1085=Name:
+1086=Pfad:
+1064=ist &Untermenü
+1066=ist &Trennline
+1=&Speichern
+2=&Abbrechen
+
+[SettingsDialogCustom]
+0=Regelname
+1=Regulärer Ausdruck
+1087=Benutzerdefinierte Float Icon® Einstellungen
+1032=&Hinzufügen
+1033=&Löschen
+1034=&Bearbeiten
+1036=Regel &testen
+
+[SettingsDialogCustomEdit]
+100=Regel bearbeiten
+101=Regel hinzufügen
+1088=Regelname:
+1089=Regulärer Ausdruck:
+1090=Benutzerdefiniert
+1=&Speichern
+2=&Abbrechen
+
+[SettingsDialogExcept]
+1091=Sollte DM2 Probleme mit anderen Anwendungen haben, können Sie Ausnahmeregeln definieren (Reg. Ausdrücke sind möglich).
+1057=&Hinzufügen
+1058=&Löschen
+1059=&Bearbeiten
+
+[SettingsDialogExceptEdit]
+100=Ausnahmeregel bearbeiten
+101=Ausnahmeregel hinzufügen
+1092=Regel:
+1093=Passend zu
+1053=Fenster&titel
+1054=&Prozessname
+1094=Ausnahmeeinstellungen
+1055=&Favoritenfunktion ausschalten
+1056=Float/Tray/Verstecken/Transparenz: Deaktivieren
+1107=S&ystemmenü-Modifizierung deaktivieren
+1=&Speichern
+2=&Abbrechen
+
+[SettingsDialogPlugins]
+1072=K&onfigur..
+1073=Ü&ber
+1075=&Deinstall..
+1101=Mehr Erweiterungen...
+
+[SettingsDialogWindowManager]
+0=Fenstertitel
+1=Status
+100=Kein Titel oder geschlossen
+101=Float Icon®
+102=Traysymbol
+103=Ausgeblendetes Fenster
+104=Transparenz %d%%
+1006=&Wiederherst.
+1008=&Alles wiederh.
+1007=&Schließen
+1009=&Aktualisieren
+
+[SettingsDialogAbout]
+1103=Homepage:

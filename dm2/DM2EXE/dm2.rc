@@ -1,0 +1,609 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "windows.h"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+#include "dm2.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Neutral resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_NEU)
+#ifdef _WIN32
+LANGUAGE LANG_NEUTRAL, SUBLANG_NEUTRAL
+#pragma code_page(936)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_TREE                ICON    DISCARDABLE     "TreeDir.ico"
+APPICON                 ICON    DISCARDABLE     "../dm2.ico"
+IDI_TREEITEM            ICON    DISCARDABLE     "TreeItem.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+DM2_R_POPUP MENU DISCARDABLE 
+BEGIN
+    POPUP "DM2 R-Popup"
+    BEGIN
+        MENUITEM "&DM2",                        IDM_DM2
+        MENUITEM "&Restore all windows",        IDM_RESTORE_ALL
+        MENUITEM SEPARATOR
+        MENUITEM "&Exit",                       IDM_QUIT
+    END
+END
+
+DM2_TRAY_POPUP MENU DISCARDABLE 
+BEGIN
+    POPUP "DM2 Tray-Popup"
+    BEGIN
+        MENUITEM "&Restore window",             IDM_RESTORE_TRAYWND
+        MENUITEM SEPARATOR
+        MENUITEM "&DM2",                        IDM_DM2
+    END
+END
+
+DM2_FLICO_POPUP MENU DISCARDABLE 
+BEGIN
+    POPUP "DM2 Flico-Popup"
+    BEGIN
+        MENUITEM "&Restore window",             IDM_RESTORE_TRAYWND
+        MENUITEM "&On top",                     IDM_FLOAT_ONTOP
+        POPUP "O&pacity"
+        BEGIN
+            MENUITEM "10%",                         IDM_OP_10
+            MENUITEM "20%",                         IDM_OP_20
+            MENUITEM "30%",                         IDM_OP_30
+            MENUITEM "40%",                         IDM_OP_40
+            MENUITEM "50%",                         IDM_OP_50
+            MENUITEM "60%",                         IDM_OP_60
+            MENUITEM "70%",                         IDM_OP_70
+            MENUITEM "80%",                         IDM_OP_80
+            MENUITEM "90%",                         IDM_OP_90
+            MENUITEM "100%",                        IDM_OP_100
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "&DM2",                        IDM_DM2
+    END
+END
+
+IDR_MENU_RESIZE MENU DISCARDABLE 
+BEGIN
+    POPUP "Resize Window"
+    BEGIN
+        MENUITEM "640 x 480",                   ID_RESIZE_640480
+        MENUITEM "800 x 600",                   ID_RESIZE_800600
+        MENUITEM "1024 x 768",                  ID_RESIZE_1024768
+        MENUITEM "1280 x 960",                  ID_RESIZE_1280960
+        MENUITEM SEPARATOR
+        MENUITEM "100% x 100%",                 ID_RESIZE_C100
+        MENUITEM "50% x 50%",                   ID_RESIZE_C50
+        MENUITEM "30% x 30%",                   ID_RESIZE_C30
+        MENUITEM SEPARATOR
+        MENUITEM "&Other...",                   ID_RESIZE_OTHER
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DM2 DIALOG DISCARDABLE  0, 0, 340, 210
+STYLE DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "DM2"
+FONT 8, "Tahoma"
+BEGIN
+    PUSHBUTTON      "&OK",IDOK,230,193,50,14
+    PUSHBUTTON      "&Cancel",IDCANCEL,286,193,50,14
+    PUSHBUTTON      "E&xit",IDC_BTN_EXIT,4,193,50,14
+    CONTROL         "DialogMate2_TreeView",IDC_TREE_SET,"SysTreeView32",
+                    TVS_HASLINES | TVS_SHOWSELALWAYS | TVS_TRACKSELECT | 
+                    WS_BORDER | WS_TABSTOP,4,4,91,184
+    GROUPBOX        "DM2_Settings_Title",IDC_STATIC_TITLE,99,0,237,188
+    LTEXT           "",IDC_STATIC_DLG,104,10,227,175,NOT WS_VISIBLE
+END
+
+IDD_DM2_GENERAL DIALOGEX 0, 0, 227, 175
+STYLE WS_CHILD
+EXSTYLE WS_EX_CONTROLPARENT
+FONT 8, "Tahoma", 0, 0, 0x1
+BEGIN
+    CONTROL         "Float icon default on &top",IDC_CHK_FLOATTOP,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,3,2,140,10
+    CONTROL         "Window position fo&llows float icon",IDC_CHK_FOLLOWMODE,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,3,12,191,10
+    CONTROL         "Float icon moving style like &winamp",IDC_CHK_MOVE,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,3,23,203,10
+    CONTROL         "Float icon o&pacity:",IDC_CHK_OPA,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,3,37,106,10
+    COMBOBOX        IDC_COMBO_OPA,112,35,71,93,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    LTEXT           "Float icon init position:",IDC_STATIC_FPOS,4,53,104,8
+    COMBOBOX        IDC_COMBO_POS,112,51,72,74,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    LTEXT           "%",IDC_STATIC,184,38,12,8
+    LTEXT           "Float icon border color:",IDC_STATIC_FBC,4,70,108,8
+    LTEXT           "Float icon background color:",IDC_STATIC_FBGC,4,86,107,
+                    8
+    EDITTEXT        IDC_EDIT_BC,112,68,56,12,ES_AUTOHSCROLL | NOT WS_BORDER,
+                    WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT_BGC,112,84,56,12,ES_AUTOHSCROLL | NOT WS_BORDER,
+                    WS_EX_STATICEDGE
+    LTEXT           "Float icon size:",IDC_STATIC_FSIZE,4,103,105,8
+    COMBOBOX        IDC_COMBO_FSIZE,111,100,73,61,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    CONTROL         "Make screens&hots when hiding",IDC_CHK_MSS,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,8,127,150,10
+    CONTROL         "Stretch to &fit",IDC_CHK_SF,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,8,139,83,10
+    LTEXT           "Width:",IDC_STATIC_SW,21,154,22,8
+    EDITTEXT        IDC_EDIT_SSW,46,152,40,12,ES_AUTOHSCROLL | ES_NUMBER | 
+                    NOT WS_BORDER,WS_EX_STATICEDGE
+    LTEXT           "Height:",IDC_STATIC_SH,102,154,24,8
+    EDITTEXT        IDC_EDIT_SSH,130,152,40,12,ES_AUTOHSCROLL | ES_NUMBER | 
+                    NOT WS_BORDER,WS_EX_STATICEDGE
+    CONTROL         "",IDC_BTN_BC,"Button",BS_OWNERDRAW | WS_TABSTOP,169,68,
+                    15,12,WS_EX_STATICEDGE
+    CONTROL         "",IDC_BTN_BGC,"Button",BS_OWNERDRAW | WS_TABSTOP,169,84,
+                    15,12,WS_EX_STATICEDGE
+    GROUPBOX        "Screenshots Settings",IDC_STATIC_SS,4,115,219,55
+END
+
+IDD_DM2_ABOUT DIALOGEX 0, 0, 227, 175
+STYLE WS_CHILD
+EXSTYLE WS_EX_CONTROLPARENT
+FONT 8, "Tahoma", 0, 0, 0x1
+BEGIN
+    LTEXT           "Homepage:",IDC_STATIC_HOME,58,158,47,8
+    LTEXT           "http://dm2.sf.net",IDC_STATIC_HURL,108,158,83,8
+END
+
+IDD_DM2_ADVANCE DIALOGEX 0, 0, 227, 175
+STYLE WS_CHILD
+EXSTYLE WS_EX_CONTROLPARENT
+FONT 8, "Tahoma", 0, 0, 0x1
+BEGIN
+    CONTROL         "Enable &modification of system menu",IDC_CHK_MSM,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,3,2,219,10
+    CONTROL         "Enable hidden window closing &detection",IDC_CHK_DWC,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,3,13,218,10
+    CONTROL         "Enable window title dynamic &update",IDC_CHK_DYNT,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,3,24,219,10
+    CONTROL         "Auto run at &startup for",IDC_CHK_RUN,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,3,36,126,10
+    COMBOBOX        IDC_COMBO_RUNMODE,132,35,92,90,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    CONTROL         "Enable show DM2 window &hotkey",IDC_CHK_HKDM2,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,3,53,126,10
+    CONTROL         "HotKey_DM2",IDC_HOTKEY_DM2,"msctls_hotkey32",WS_BORDER | 
+                    WS_TABSTOP,131,51,93,13
+    CONTROL         "&Prevent moving out of desktop when float icon is restored.",
+                    IDC_CHK_MO,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,3,67,
+                    220,10
+    CONTROL         "Favorite menu section name matched with &window title.",
+                    IDC_CHK_FAVCMP,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,3,
+                    80,220,10
+    CONTROL         "DM2 show &tray icon",IDC_CHK_TRAY,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,3,134,219,10
+    LTEXT           "Language:",IDC_STATIC_LANG,4,150,42,8
+    COMBOBOX        IDC_COMBO_LANG,49,147,174,100,CBS_DROPDOWNLIST | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Get more languages!",IDC_STATIC_GETLANG,149,165,75,8
+    LTEXT           "&Number of Recent Directorys in Favorite Menu (0~15):",
+                    IDC_STATIC_REC,4,94,176,8
+    EDITTEXT        IDC_EDIT_REC,188,92,35,12,ES_AUTOHSCROLL | ES_NUMBER
+END
+
+IDD_DM2_HOTKEY DIALOGEX 0, 0, 227, 175
+STYLE WS_CHILD
+EXSTYLE WS_EX_CONTROLPARENT
+FONT 8, "Tahoma", 0, 0, 0x1
+BEGIN
+    CONTROL         "List_DM2HotKey",IDC_LIST_HOTKEY,"SysListView32",
+                    LVS_REPORT | LVS_SINGLESEL | LVS_SHOWSELALWAYS | 
+                    LVS_NOSORTHEADER | WS_BORDER | WS_TABSTOP,0,1,227,156
+    PUSHBUTTON      "&Add",IDC_BTN_HKADD,16,160,50,14
+    PUSHBUTTON      "&Remove",IDC_BTN_HKDEL,88,160,50,14
+    PUSHBUTTON      "&Edit",IDC_BTN_HKEDIT,160,160,50,14
+END
+
+IDD_DM2_FAVMENU DIALOGEX 0, 0, 227, 175
+STYLE WS_CHILD
+EXSTYLE WS_EX_CONTROLPARENT
+FONT 8, "Tahoma", 0, 0, 0x1
+BEGIN
+    CONTROL         "Enable &favorites menu",IDC_CHK_EF,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,3,2,87,10
+    LISTBOX         IDC_LIST_MENU,3,14,70,143,LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_HSCROLL | WS_TABSTOP
+    PUSHBUTTON      "A&dd",IDC_BTN_EXMADD,5,160,20,14
+    PUSHBUTTON      "De&l",IDC_BTN_EXMDEL,28,160,20,14
+    PUSHBUTTON      "Ed&it",IDC_BTN_EXMEDIT,51,160,20,14
+    PUSHBUTTON      "&Add",IDC_BTN_EXADD,79,160,39,14
+    PUSHBUTTON      "Dele&te",IDC_BTN_EXDEL,122,160,39,14
+    PUSHBUTTON      "&Edit",IDC_BTN_EXEDIT,165,160,39,14
+    CONTROL         "TreeMenu",IDC_TREE_MENUITEM,"SysTreeView32",
+                    TVS_HASBUTTONS | TVS_HASLINES | TVS_LINESATROOT | 
+                    TVS_SHOWSELALWAYS | TVS_FULLROWSELECT | WS_BORDER | 
+                    WS_TABSTOP,75,28,149,129
+    EDITTEXT        IDC_EDIT_SHOWPATH,75,14,149,12,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    PUSHBUTTON      "<-",IDC_BUTTON_UP,208,160,14,14
+END
+
+IDD_DM2_MANAGER DIALOGEX 0, 0, 227, 175
+STYLE WS_CHILD
+EXSTYLE WS_EX_CONTROLPARENT
+FONT 8, "Tahoma", 0, 0, 0x1
+BEGIN
+    CONTROL         "List_DM2_Window",IDC_LIST_DM2WIN,"SysListView32",
+                    LVS_REPORT | LVS_SINGLESEL | LVS_SHOWSELALWAYS | 
+                    LVS_NOSORTHEADER | WS_BORDER | WS_TABSTOP,3,2,220,153
+    PUSHBUTTON      "&Restore",IDC_BTN_SHOW,3,159,51,15
+    PUSHBUTTON      "Close &Window",IDC_BTN_CLOSE,116,159,51,15
+    PUSHBUTTON      "Restore &All",IDC_BTN_SHOWALL,59,159,51,15
+    PUSHBUTTON      "Re&fresh",IDC_BTN_REF,172,159,51,15
+END
+
+IDD_DM2_CUSTOM DIALOGEX 0, 0, 227, 175
+STYLE WS_CHILD
+EXSTYLE WS_EX_CONTROLPARENT
+FONT 8, "Tahoma", 0, 0, 0x1
+BEGIN
+    LTEXT           "Custom float icon settings.",IDC_STATIC_CUSTOM,5,1,196,
+                    10
+    CONTROL         "List_DM2_CUSTOM",IDC_LIST_CUSTOM,"SysListView32",
+                    LVS_REPORT | LVS_SINGLESEL | LVS_SHOWSELALWAYS | 
+                    LVS_NOSORTHEADER | WS_BORDER | WS_TABSTOP,2,13,223,143
+    PUSHBUTTON      "&Add",IDC_BTN_CADD,2,160,45,14
+    PUSHBUTTON      "&Delete",IDC_BTN_CDEL,59,160,47,14
+    PUSHBUTTON      "&Edit",IDC_BTN_CEDIT,118,160,47,14
+    PUSHBUTTON      "&Test rule",IDC_BTN_CTEST,178,160,47,14
+END
+
+IDD_DM2_CUSTOM_EDIT DIALOGEX 0, 0, 237, 239
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+FONT 8, "Tahoma", 0, 0, 0x1
+BEGIN
+    LTEXT           "",IDC_STATIC_DLG,5,41,227,175,NOT WS_VISIBLE
+    LTEXT           "Rule Name:",IDC_STATIC_RN,3,4,56,8
+    EDITTEXT        IDC_EDIT_RN,63,2,171,12,ES_AUTOHSCROLL | NOT WS_BORDER,
+                    WS_EX_STATICEDGE
+    LTEXT           "Reg Expressions:",IDC_STATIC_RE,3,19,58,8
+    EDITTEXT        IDC_EDIT_RE,63,16,171,12,ES_AUTOHSCROLL | NOT WS_BORDER,
+                    WS_EX_STATICEDGE
+    GROUPBOX        "Custom",IDC_STATIC_CST,2,31,234,189
+    PUSHBUTTON      "&Save",IDOK,51,223,50,14
+    PUSHBUTTON      "&Cancel",IDCANCEL,140,223,50,14
+END
+
+IDD_DM2_EXCEPTION DIALOGEX 0, 0, 227, 175
+STYLE WS_CHILD
+EXSTYLE WS_EX_CONTROLPARENT
+FONT 8, "Tahoma", 0, 0, 0x1
+BEGIN
+    LISTBOX         IDC_LIST_EXCEPTION,3,22,221,135,LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "&Add",IDC_BTN_EADD,15,160,50,14
+    PUSHBUTTON      "&Remove",IDC_BTN_EDEL,89,160,50,14
+    PUSHBUTTON      "&Edit",IDC_BTN_EEDIT,163,160,50,14
+    LTEXT           "If DM2 is not working fine with some application, please add rule to avoid problems (Reg Expressions are availiable).",
+                    IDC_STATIC_EXCEPT,3,1,219,18
+END
+
+IDD_DM2_EXCEPTION_EDIT DIALOGEX 0, 0, 175, 116
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+FONT 8, "Tahoma", 0, 0, 0x1
+BEGIN
+    LTEXT           "Rule:",IDC_STATIC_RULE,3,8,25,8
+    EDITTEXT        IDC_EDIT_RULE,30,5,140,12,ES_AUTOHSCROLL | NOT WS_BORDER,
+                    WS_EX_STATICEDGE
+    GROUPBOX        "Match to",IDC_STATIC_CW,4,19,166,24
+    CONTROL         "Window &title",IDC_RADIO_TEXT,"Button",
+                    BS_AUTORADIOBUTTON | WS_TABSTOP,11,29,75,10
+    CONTROL         "&Process name",IDC_RADIO_PROC,"Button",
+                    BS_AUTORADIOBUTTON | WS_TABSTOP,93,29,71,10
+    GROUPBOX        "Exception settings",IDC_STATIC_ES,5,46,164,47
+    CONTROL         "Disable &favorites menu function",IDC_CHK_DF,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,11,56,150,10
+    CONTROL         "&Disable float/tray/hide/opacity function",IDC_CHK_DDM,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,11,67,152,10
+    PUSHBUTTON      "&Save",IDOK,18,98,50,14
+    PUSHBUTTON      "&Cancel",IDCANCEL,105,98,50,14
+    CONTROL         "Disable modification of S&ystem Menu",IDC_CHK_DSYS,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,11,79,154,10
+END
+
+IDD_DM2_FAVMENU_EDIT DIALOGEX 0, 0, 175, 46
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+FONT 8, "Tahoma", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDIT_SECTION,44,5,126,12,ES_AUTOHSCROLL | NOT 
+                    WS_BORDER,WS_EX_STATICEDGE
+    LTEXT           "Section:",IDC_STATIC_SEC,3,8,39,8
+    PUSHBUTTON      "&Save",IDOK,18,27,50,14
+    PUSHBUTTON      "&Cancel",IDCANCEL,105,27,50,14
+END
+
+IDD_DM2_FAVMENUITEM_EDIT DIALOGEX 0, 0, 175, 66
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+FONT 8, "Tahoma", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDIT_NAME,35,5,135,12,ES_AUTOHSCROLL | NOT WS_BORDER,
+                    WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT_PATH,35,20,120,12,ES_AUTOHSCROLL | NOT 
+                    WS_BORDER,WS_EX_STATICEDGE
+    LTEXT           "Name:",IDC_STATIC_NAME,3,8,31,8
+    LTEXT           "Path:",IDC_STATIC_PATH,3,23,31,8
+    PUSHBUTTON      "...",IDC_BTN_BRW,157,21,14,12,0,WS_EX_STATICEDGE
+    CONTROL         "is s&ub menu",IDC_CHK_SUB,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,3,37,77,10
+    PUSHBUTTON      "&Save",IDOK,33,50,50,14
+    PUSHBUTTON      "&Cancel",IDCANCEL,92,50,50,14
+    CONTROL         "is &menu separator",IDC_CHK_SEP,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,98,37,73,10
+END
+
+IDD_DM2_HOTKEY_EDIT DIALOGEX 0, 0, 221, 74
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+FONT 8, "Tahoma"
+BEGIN
+    LTEXT           "HotKey:",IDC_STATIC_HK,3,8,41,8
+    CONTROL         "HotKey_CMD",IDC_HOTKEY_EDIT,"msctls_hotkey32",WS_BORDER | 
+                    WS_TABSTOP,46,4,144,14
+    CONTROL         "Win",IDC_HOTKEY_EXT,"Button",BS_AUTOCHECKBOX,192,4,29,
+                    14
+    COMBOBOX        IDC_COMBO_CMD,46,23,172,159,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Command:",IDC_STATIC_HK_CMD,3,25,41,8
+    PUSHBUTTON      "&Save",IDOK,46,57,50,14
+    PUSHBUTTON      "&Cancel",IDCANCEL,125,57,50,14
+    LTEXT           "Param:",IDC_STATIC_PARAM,3,41,41,8
+    EDITTEXT        IDC_EDIT_HKPARAM,46,38,171,12,ES_AUTOHSCROLL
+END
+
+IDD_DM2_PLUGINS DIALOGEX 0, 0, 227, 175
+STYLE WS_CHILD
+EXSTYLE WS_EX_CONTROLPARENT
+FONT 8, "Tahoma", 0, 0, 0x1
+BEGIN
+    LISTBOX         IDC_LIST_PLUGINS,2,2,223,154,LBS_SORT | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "&Config",IDC_BTN_CONFIG,3,159,40,14
+    PUSHBUTTON      "&About",IDC_BTN_ABOUT,54,159,40,14
+    LTEXT           "Get more plugins!",IDC_STATIC_GETPLUG,151,162,72,8
+    PUSHBUTTON      "&Uninstall",IDC_BTN_UNINST,105,159,39,14
+END
+
+IDD_DM2_ACTION DIALOGEX 0, 0, 227, 175
+STYLE WS_CHILD
+EXSTYLE WS_EX_CONTROLPARENT
+FONT 8, "Tahoma", 0, 0, 0x1
+BEGIN
+    LTEXT           "Right Click",IDC_STATIC_RC,4,29,44,8
+    LTEXT           "Min button",IDC_STATIC_NCMIN,57,10,41,8
+    LTEXT           "Max button",IDC_STATIC_NCMAX,114,10,42,8
+    LTEXT           "Close button",IDC_STATIC_NCCLS,172,10,47,8
+    COMBOBOX        IDC_COMBO_RIB,51,25,50,160,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    COMBOBOX        IDC_COMBO_RAB,110,25,50,160,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_RCB,169,25,50,160,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Shift+Right",IDC_STATIC_SRC,4,47,44,8
+    COMBOBOX        IDC_COMBO_SRIB,51,43,50,160,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_SRAB,110,43,50,160,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_SRCB,169,43,50,160,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Alt+Right",IDC_STATIC_ARC,4,65,44,8
+    COMBOBOX        IDC_COMBO_ARIB,51,61,50,160,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_ARAB,110,61,50,160,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_ARCB,169,61,50,160,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Ctrl+Right",IDC_STATIC_CRC,4,84,44,8
+    COMBOBOX        IDC_COMBO_CRIB,51,80,50,160,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_CRAB,110,80,50,160,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_CRCB,169,80,50,160,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Middle Click",IDC_STATIC_MC,4,102,44,8
+    COMBOBOX        IDC_COMBO_MIB,51,98,50,160,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    COMBOBOX        IDC_COMBO_MAB,110,98,50,160,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_MCB,169,98,50,160,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Shift+Middle",IDC_STATIC_SMC,4,120,41,8
+    COMBOBOX        IDC_COMBO_SMIB,51,116,50,160,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_SMAB,110,116,50,160,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_SMCB,169,116,50,160,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Alt+Middle",IDC_STATIC_AMC,4,138,44,8
+    COMBOBOX        IDC_COMBO_AMIB,51,134,50,160,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_AMAB,110,134,50,160,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_AMCB,169,134,50,160,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Ctrl+Middle",IDC_STATIC_CMC,4,156,44,8
+    COMBOBOX        IDC_COMBO_CMIB,51,152,50,160,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_CMAB,110,152,50,160,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_CMCB,169,152,50,160,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Key/Mouse",IDC_STATIC_KM,7,10,42,8
+    GROUPBOX        "",IDC_STATIC,2,2,221,19
+END
+
+IDD_DM2_ACTION_RESIZEWIN DIALOGEX 0, 0, 124, 57
+STYLE DS_MODALFRAME | DS_SETFOREGROUND | DS_CENTERMOUSE | WS_POPUP | 
+    WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "Resize Window"
+FONT 8, "Tahoma", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDIT_W,35,7,34,12,ES_AUTOHSCROLL | ES_NUMBER | NOT 
+                    WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT_H,35,22,34,12,ES_AUTOHSCROLL | ES_NUMBER | NOT 
+                    WS_BORDER,WS_EX_STATICEDGE
+    CONTROL         "Pi&xel",IDC_RADIO_PIX,"Button",BS_AUTORADIOBUTTON,72,25,
+                    51,10
+    CONTROL         "&Percent",IDC_RADIO_PER,"Button",BS_AUTORADIOBUTTON,72,
+                    9,51,10
+    DEFPUSHBUTTON   "&OK",IDOK,18,42,38,14
+    PUSHBUTTON      "&Cancel",IDCANCEL,67,42,38,14
+    LTEXT           "Width:",IDC_STATIC_W,5,9,29,8
+    LTEXT           "Height:",IDC_STATIC_H,5,25,29,8
+END
+
+IDD_DM2_ACTION_ALIGN DIALOGEX 0, 0, 41, 33
+STYLE DS_MODALFRAME | DS_SETFOREGROUND | DS_CENTERMOUSE | WS_POPUP
+EXSTYLE WS_EX_TOOLWINDOW
+FONT 8, "Tahoma", 0, 0, 0x1
+BEGIN
+    LTEXT           "",IDC_STATIC_TL,0,0,13,10,SS_NOTIFY
+    LTEXT           "",IDC_STATIC_TC,14,0,13,10,SS_NOTIFY
+    LTEXT           "",IDC_STATIC_TR,28,0,13,10,SS_NOTIFY
+    LTEXT           "",IDC_STATIC_CL,0,11,13,10,SS_NOTIFY
+    LTEXT           "",IDC_STATIC_CC,14,11,13,10,SS_NOTIFY
+    LTEXT           "",IDC_STATIC_CR,28,11,13,10,SS_NOTIFY
+    LTEXT           "",IDC_STATIC_BL,0,22,13,10,SS_NOTIFY
+    LTEXT           "",IDC_STATIC_BC,14,22,13,10,SS_NOTIFY
+    LTEXT           "",IDC_STATIC_BR,28,22,13,10,SS_NOTIFY
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_DM2, DIALOG
+    BEGIN
+        RIGHTMARGIN, 339
+    END
+
+    IDD_DM2_GENERAL, DIALOG
+    BEGIN
+        RIGHTMARGIN, 226
+        BOTTOMMARGIN, 174
+    END
+
+    IDD_DM2_EXCEPTION_EDIT, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 111
+    END
+
+    IDD_DM2_ACTION_ALIGN, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 31
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// JPEG
+//
+
+IDR_JPEG_DM2            JPEG    DISCARDABLE     "../dm2.jpg"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP_ALIGN        BITMAP  DISCARDABLE     "Align.bmp"
+#endif    // Neutral resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""windows.h""\r\n"
+    "#undef APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""dm2.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

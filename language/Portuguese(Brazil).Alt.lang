@@ -1,0 +1,274 @@
+;Language version 1.20
+[LangOptions]
+LanguageName=Portuguese(Brazil) (alt)
+FontName=MS Sans Serif
+FontSize=9
+
+[Messages]
+0=DM2 Info
+100=Está faltando o nome da regra ou a expressão regular!
+101=Está faltando a regra!
+102=Configurações de exceção devem estar selecionadas!
+103=Não é possível executar a aplicação especificada! Por favor cheque o endereço.
+104=Este plugin não tem configuração!
+105=Não é possível apagar as seções 'default' ou 'application'!
+106=Não é possível editar as seções 'default' ou 'application'!
+108=Não é possível editar o separador de menu!
+109=Está faltando o nome da seção!
+110=Nome da seção já existe!
+111=Está faltando o nome!
+112=Por favor não use o caracter '-' no nome!
+113=Por favor não use os caracteres '|' ou '-' no endereço!
+114=Está faltando o endereço!
+115=Não é possível fazer isso!
+116=Resultado do teste da regra:
+117=Não foi encontrada nenhuma janela!
+118=Muitas janelas encontradas!
+119=Teste OK: janela encontrada!
+120=Resultado
+121=Você tem certeza que deseja desinstalar este plugin?
+122=Tecla de atalho já existe!
+
+[MenuFloat]
+0=O&pacidade
+103=&Restaurar janela
+104=Sempre &visível
+100=&DM2
+105=&10%
+106=&20%
+107=&30%
+108=&40%
+109=&50%
+110=&60%
+111=&70%
+112=&80%
+113=&90%
+114=1&00%
+
+[MenuTray]
+103=&Restaurar janela
+100=&DM2
+
+[MenuDM2]
+100=&DM2
+101=&Restaurar todas as janelas
+102=Sa&ir
+
+[MenuResize]
+40001=640x480
+40002=800x600
+40003=1024x768
+40004=1280x960
+40005=100%
+40006=50%
+40007=30%
+40008=&Outro...
+
+;Note: system menu max 30 character
+[MenuSystem]
+500=Minimizar para o &tray
+501=Sempre &visível
+502=Transformar em ícone &flutuante
+503=Opacidade
+513=&Desabilitar
+514=&Prioridade
+515=Ba&ixa
+516=A&baixo do normal
+517=&Normal
+518=&Acima do normal
+519=Al&ta
+520=Tempo &Real
+
+[SettingsDialog]
+1=&OK
+2=&Cancelar
+1000=Sa&ir
+0=Preferências
+102=Geral
+104=Avançada
+116=Ação
+105=Teclas de Atalho
+106=Menu Favoritos
+108=Outros
+110=Exceções
+115=Plugins
+107=Gerenciador de Janelas
+103=Sobre
+
+[SettingsDialogGeneral]
+100=Acima à esquerda
+101=Acima à direita
+102=Abaixo à esquerda
+103=Abaixo à direita
+104=Centro
+105=38x38 (Padrão)
+106=30x30
+107=22x22
+1004=Ícone flu&tuante sempre visível por padrão
+1009=Posição da jane&la segue ícone flutuante
+1010=O&pacidade do ícone flutuante:
+1077=Posição inicial do ícone flutuante:
+1078=Cor da borda do ícone flutuante:
+1079=Cor de fundo do ícone flutuante:
+1015=Mostrar &miniaturas quando oculto
+1019=Esticar para &caber
+1080=Largura:
+1081=Altura:
+1099=Configurações das miniaturas
+1108=Tamanho do ícone flutuante:
+1113=Movimento do ícone flutuante no estilo &Winamp
+
+[SettingsDialogAdvance]
+100=Todos os usuários
+101=Usuário atual
+103=Os nomes dos processos são combinados por padrão.
+1025=Ativar &modificação do menu do sistema
+1026=Ativar &detecção de fechamento de janelas ocultas
+1027=Ativar at&ualização dinâmica dos títulos das janelas
+1036=Iniciar com o &sistema
+1040=Ativar tecla de atal&ho do DM2
+1046=&Previnir mover fora da tela quando o ícone flutuante é restaurado.
+1067=Combinar o nome da seção do menu Favoritos ao título da &janela.
+1018=Exibir ícone do DM2 no &tray
+1095=Idioma:
+1098=Baixe mais idiomas!
+1119=Número de pastas recentes no menu Favoritos (0~15):
+
+[SettingsDialogAction]
+100=Nenhuma ação
+101=Enviar janela para o fundo
+102=Redimensionar janela
+103=Alinhar janela
+1115=Tecla/Mouse
+1116=Botão Min.
+1117=Botão Max.
+1118=Botão Fechar
+1119=Botão Direito
+1120=Shift+Direito
+1121=Alt+Direito
+1122=Ctrl+Direito
+1123=Botão Meio
+1124=Shift+Meio
+1125=Alt+Meio
+1126=Ctrl+Meio
+
+[DialogResize]
+1=&OK
+2=&Cancelar
+1129=Largura:
+1130=Altura:
+1133=Pi&xel
+1134=&Porcentagem
+
+[SettingsDialogHotKey]
+0=Tecla de atalho
+1=Comando
+2=Parâmetro
+100=Ocultar janela em primeiro plano
+101=Minimizar a janela para o tray
+102=Minimizar a janela para ícone flutuante
+103=Aumentar a opacidade da janela
+104=Diminuir a opacidade da janela
+105=Restaurar a opacidade da janela
+106=Tornar a janela sempre visível
+107=Exibir menu Favoritos
+108=Ocultar janela especificada
+1022=&Adicionar
+1023=&Remover
+1024=&Editar
+
+[SettingsDialogHotKeyEdit]
+100=Editar tecla de atalho
+101=Adicionar tecla de atalho
+1082=Tecla de atalho:
+1083=Comando:
+1111=Parâmetro:
+1=&Salvar
+2=&Cancelar
+
+[SettingsDialogFav]
+1028=Ativar menu &Favoritos
+1032=A&d.
+1033=E&xcl.
+1034=&Edit.
+1029=&Adicionar
+1030=E&xcluir
+1031=&Editar
+
+[SettingsDialogFavSection]
+100=Editar seção
+101=Adicionar seção
+1084=Seção:
+1=&Salvar
+2=&Cancelar
+
+[SettingsDialogFavMenu]
+100=Editar item do menu
+101=Adicionar item do menu
+1085=Nome:
+1086=Endereço:
+1064=S&ub menu
+1066=Sepa&rador
+1=&Salvar
+2=&Cancelar
+
+[SettingsDialogCustom]
+0=Nome da regra
+1=Expressão regular
+1087=Opções personalizadas dos ícones flutuantes.
+1032=&Adicionar
+1033=E&xcluir
+1034=&Editar
+1036=&Testar regra
+
+[SettingsDialogCustomEdit]
+100=Editar regra
+101=Adicionar regra
+1088=Nome da regra:
+1089=Expressões regulares:
+1090=Personalizar
+1=&Salvar
+2=&Cancelar
+
+[SettingsDialogExcept]
+1091=Se o DM2 não está trabalhando bem com alguma aplicação, adicione uma regra para evitar problemas (expressões regulares disponíveis).
+1057=&Adicionar
+1058=E&xcluir
+1059=&Editar
+
+[SettingsDialogExceptEdit]
+100=Editar regra de exceção
+101=Adicionar regra de exceção
+1092=Regra:
+1093=Combinar com
+1053=&Título da janela
+1054=Nome do &processo
+1094=Configurações da exceção
+1055=Desabilitar o menu &Favoritos
+1056=&Desabilitar flutuar/tray/ocultar/opacidade
+1107=Desabilitar modificações do menu do s&istema
+1=&Salvar
+2=&Cancelar
+
+[SettingsDialogPlugins]
+1072=C&onfigurações
+1073=&Sobre
+1075=&Desinstalar
+1101=Baixe mais plugins!
+
+[SettingsDialogWindowManager]
+0=Título da janela
+1=Status
+100=Sem título ou fechada
+101=Ícone flutuante
+102=Ícone no tray
+103=Janela oculta
+104=Opacidade %d%%
+1006=&Restaurar
+1008=Restaurar tod&as
+1007=Fechar &janela
+1009=Atua&lizar
+
+[SettingsDialogAbout]
+1103=Homepage:
+

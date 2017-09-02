@@ -1,0 +1,4 @@
+LIBRARY		PluginsExample
+DESCRIPTION	"HOWTO: write dm2 plugins?. code by flyfancy"
+
+EXPORTS		dm2_get_interface

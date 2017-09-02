@@ -1,0 +1,273 @@
+;Translated into Brazilian Portuguese por MCA, Niterói, Brazil. Language version: 1.20.
+[LangOptions]
+LanguageName=Portuguese(Brazil)
+FontName=Arrow Narrow
+FontSize=9
+
+[Messages]
+0=Info do DM2
+100=Nome da regra ou expressão de registro ausente!
+101=Regra ausente!
+102=Exception settings must be selected!
+103=Não foi possível abrir o programa! Verifique o caminho.
+104=Este plugin não tem configuração!
+105=Não se pode apagar a seção 'padrão' ou de 'programas'!
+106=Não se pode editar a seção 'padrão' ou de 'programas'!
+107=Não se pode editar o separador de fim de submenu!
+108=Não se pode editor o separador de menu!
+109=Falta indicar o nome da seção ausente!
+110=O nome da seção já existe!
+111=Falta indicar o nome!
+112=Não use '-' no nome!
+113=Não use '|' ou '-' no caminho!
+114=Falta o caminho!
+115=Não se pode fazer isso!
+116=Resultado do teste da regra:
+117=Não foi possível achar a janela especificada!
+118=Achei muitas janelas correspondentes!
+119=Teste ok: achei a janela especificada!
+120=Resultado
+121=Tem certeza de que deseja desinstalar o plugin?
+122=Esta tecla de atalho já existe!
+
+[MenuFloat]
+0=O&pacidade
+103=&Restaurar janela
+104=&Acima
+100=&DM2
+
+[MenuTray]
+103=&Restaurar janela
+100=&DM2
+
+[MenuDM2]
+100=&DM2
+101=&Restaurar todas as janelas
+102=&Fechar
+
+[MenuResize]
+40001=640x480
+40002=800x600
+40003=1024x768
+40004=1280x960
+40005=100%
+40006=50%
+40007=30%
+40008=&Outra...
+
+;Note: máximo de caracteres no menu do sistema = 30
+[MenuSystem]
+500=Minimizar na &Bandeja
+501=&Sempre acima
+502=Ícone &flutuante
+503=Opacidade
+513=&Desativar
+514=&Prioridade
+515=&Ociosa
+516=&Abaixo do Normal
+517=&Normal
+518=&Acima do Normal
+519=&Alta
+520=&Imediata
+
+[SettingsDialog]
+1=&OK
+2=&Cancelar
+1000=&Fechar
+0=Configurações
+102=Gerais
+104=Avançadas
+105=Teclas de Atalho
+106=Menu dos Favoritos
+108=Personalizado
+110=Exceções
+115=Plugins
+116=Ação (teclas atalho/clique nos botões do mouse e das janelas)
+107=Controlador de Janelas
+103=Sobre
+
+[SettingsDialogGeneral]
+100=Topo-Esquerda
+101=Topo-Direita
+102=Inferior-Esquerda
+103=Inferior-Direito
+104=Centro
+105=38x38 (Padrão)
+106=30x30
+107=22x22
+1004=Ícone flu&tuante acima de todas
+1009=A janela segue o ícone f&lutuante
+1010=O&pacidade do ícone:
+1077=Posição inicial do ícone flutuante:
+1078=Cor da borda do ícone flutuante:
+1079=Cor de fundo do ícone:
+1015=&Tirar instantâneo ao ocultar
+1019=A&mpliar
+1080=Largura:
+1081=Altura:
+1099=Parâmetros do Instantâneo
+1108=Tamanho do ícone flutuante:
+1113=Ícone flutuante móvel, como no &Winamp
+
+[SettingsDialogAdvance]
+100=Todos os usuários
+101=Usuário atual
+;102=Usar tecla especificada e clique botão direito nos botões min/max/fechar para aumentar/reduzir/restaurar opacidade.
+103=A correspondência com os programas é pré-estabelecida como padrão.
+1025=Ativar &modificação do menu do sistema
+1026=Ativar &detecção de fechamento de janela oculta
+1027=Ativar at&ualização dinâmica de título de janela
+1036=A&brir automaticamente para
+1040=Teclas exibição janela do DM2
+1046=&Impedir janela saia Desktop ao restaurá-la do ícone flutuante.
+1067=Nome na seção dos Favoritos deve conferir com o tít. &janela.
+1076=Opacidade da janela
+1042=Ativar grau de &opacidade
+1043=Usar Shi&ft
+1044=Usar Ct&rl
+1045=Usar A&lt
+1018=Exibir o DM2 na &Bandeja
+1095=Idioma:
+1098=Baixe mais idiomas!
+1119=Número de pastas recentes no Menu dos Favoritos (0~15)
+
+[SettingsDialogHotKey]
+0=Teclas de Atalho
+1=Comando
+2=Parâmetros
+100=Ocultar janela de cima
+101=Minimizar janela na Bandeja
+102=Minimizar como ícone flutuante
+103=Aumentar opacidade da janela
+104=Reduzir opacidade da janela
+105=Restaurar opacidade da janela
+106=Ativar/desativar janela acima de todas
+107=Exibir menu de favoritos
+108=Ocultar janela específica
+1022=&Adicionar
+1023=&Remover
+1024=&Editar
+
+[SettingsDialogAction]
+100=Nenhuma ação
+101=Enviar janela para o fundo
+102=Redimensionar janela
+103=Alinhar janelas
+1115=Tecla/Mouse
+1116=Bot minim
+1117=Bot maxim
+1118=Bot fechar
+1119=Botão direito
+1120=Shift+Direito
+1121=Alt+Direito
+1122=Ctrl+Direito
+1123=Botão Meio
+1124=Shift+Meio
+1125=Alt+Meio
+1126=Ctrl+Meio
+
+[DialogResize]
+1=&OK
+2=&Cancelar
+1129=Largura:
+1130=Altura:
+1133=Pi&xels
+1134=&Porcentual
+
+[SettingsDialogHotKeyEdit]
+100=Editar Tecla Atalho
+101=Adicionar Tecla Atalho
+1082=Tecla Atalho:
+1083=Comando:
+1111=Parâmetros:
+1=&Salvar
+2=&Cancelar
+
+[SettingsDialogFav]
+;0=Nome
+;1=Caminho
+1028=Ative menu &Favoritos
+1032=A&dic
+1033=Apa&g
+1034=Ed&it
+1029=&Adicionar
+1030=A&pagar
+1031=&Editar
+
+[SettingsDialogFavSection]
+100=Editar seção
+101=Adicionar seção
+1084=Nome:
+1=&Salvar
+2=&Cancelar
+
+[SettingsDialogFavMenu]
+100=Editar item de menu
+101=Adicionar item de menu 
+1085=Nome:
+1086=Caminho:
+1064=s&ubmenu
+1066=separador sub&menu
+1=&Salvar
+2=&Cancelar
+
+[SettingsDialogCustom]
+0=Nome da Regra
+1=Parâmetros de Registro
+1087=Configuração personalizada de ícones flutuantes.
+1032=&Adicionar
+1033=&Apagar
+1034=&Editar
+1036=&Testar regra
+
+[SettingsDialogCustomEdit]
+100=Editar regra
+101=Adicionar regra
+1088=Nome Regra:
+1089=Parâmetros:
+1090=Personalização
+1=&Salvar
+2=&Cancelar
+
+[SettingsDialogExcept]
+1091=Se o DM2 não funcionar bem com certo programa, crie regras (ou parâmetros de Registro), para evitar problemas.
+1057=&Adicionar
+1058=&Remover
+1059=&Editar
+
+[SettingsDialogExceptEdit]
+100=Editar regra de exceção
+101=Acrescentar regra de exceção
+1092=Regra:
+1093=Conferir com
+1053=&Título da janela
+1054=&Nome do programa
+1094=Exceções
+1055=Desativar função do menu de &favoritos
+1056=&Desativar função flutuante/bandeja/ocultar/opacidade
+1107=Desativar modificação do Menu do S&istema
+1=&Salvar
+2=&Cancelar
+
+[SettingsDialogPlugins]
+1072=C&onfig
+1073=&Sobre
+1075=&Desinstale
+1101=Baixe mais plugins!
+
+[SettingsDialogWindowManager]
+0=Título da Janela
+1=Status
+100=Sem título ou fechada
+101=Ícone Flutuante
+102=Ícone Bandeja
+103=Hidden window
+104=Opacity %d%%
+1006=&Restaure
+1008=Restaure &tudo
+1007=&Feche
+1009=A&tualize
+
+[SettingsDialogAbout]
+1103=Homepage:
+1105=E-mail:

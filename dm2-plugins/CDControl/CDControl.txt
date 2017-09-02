@@ -1,0 +1,18 @@
+CDControl plugins help
+
+Param Examples:
+
+  use drive lable:
+    open J:   // Open CD Door for Drive J: 
+    close J:  // Close CD Door for Drive J:
+    J:        // Open/Close CD Door for Drive J:
+
+  use drive order:
+    open 1    // Open First Logical CD Drive Door
+    close 1   // Close First Logical CD Drive Door
+    1         // Open/Close First Logical CD Drive Door
+
+  other:
+    open all  // Open All Logical CD Drive Door
+    close all // Close All Logical CD Drive Door
+    all       // Open/Close All Logical CD Drive Door

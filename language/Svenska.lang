@@ -1,0 +1,275 @@
+;Language version 1.20
+[LangOptions]
+LanguageName=Svenska
+FontName=MS Sans Serif
+FontSize=9
+
+[Messages]
+0=DM2 Info
+100=Regelnamn eller reguljärt uttryck saknas!
+101=Regelnamn saknas!
+102=Du måste välja undantagsinställningar!
+103=Kan inte köra det angivna programmet! Kontrollera sökvägen.
+104=Denna modul kan inte konfigureras!
+105=Kan inte ta bort sektionen 'default' eller 'application'!
+106=Kan inte ändra sektionen 'default' eller 'application'!
+107=Kan inte ändra undermenyns slutflagga!
+108=Kan inte ändra menyns avskiljare!
+109=Sektionsnamn saknas!
+110=Sektionsnamnet finns redan!
+111=Namn saknas!
+112=Använd inte tecknet '-' i namn!
+113=Använd inte tecknet '|' eller '-' i sökväg!
+114=Sökväg saknas!
+115=Detta går inte!
+116=Resultat av regeltest:
+117=Hittar inget matchande fönster!
+118=Hittade för många matchande fönster!
+119=Test OK: hittade ett matchande fönster!
+120=Resultat
+121=Är det säkert att du vill avinstallera denna insticksmodul?
+122=Kortkommandot finns redan!
+
+[MenuFloat]
+0=&Opacitet
+103=&Återställ fönster
+104=&Alltid överst
+100=&DM2
+105=&10%
+106=&20%
+107=&30%
+108=&40%
+109=&50%
+110=&60%
+111=&70%
+112=&80%
+113=&90%
+114=1&00%
+
+[MenuTray]
+103=&Återställ fönster
+100=&DM2
+
+[MenuDM2]
+100=&DM2
+101=&Återställ alla fönster
+102=&Avsluta
+
+[MenuResize]
+40001=640x480
+40002=800x600
+40003=1024x768
+40004=1280x960
+40005=100%
+40006=50%
+40007=30%
+40008=&Annat...
+
+;Note: system menu max 30 character
+[MenuSystem]
+500=M&inimera till Medd.-fältet
+501=&Alltid överst
+502=&Till flytande ikon
+503=&Opacitet
+513=&Inaktivera
+514=&Prioritet
+515=&Inaktiv
+516=&Under normal
+517=&Normal
+518=&Över normal
+519=&Hög
+520=&Realtid
+
+[SettingsDialog]
+1=OK
+2=Avbryt
+1000=&Avsluta
+0=Inställningar
+102=Allmänt
+104=Avancerat
+116=Händelse
+105=Kortkommando
+106=Favoritmeny
+108=Eget
+110=Undantag
+115=Insticksmoduler
+107=Fönsterhanterare
+103=Om
+
+[SettingsDialogGeneral]
+100=Uppe till vänster
+101=Uppe till höger
+102=Nere till vänster
+103=Nere till höger
+104=Centrera
+105=38x38 (Standard)
+106=30x30
+107=22x22
+1004=&Flytande ikon alltid överst
+1009=F&önsterläget följer den flytande ikonen
+1010=&Opacitet för flytande ikon:
+1077=Startposition för flytande ikon:
+1078=Ramfärg på flytande ikon:
+1079=Bakgrundsfärg på flytande ikon:
+1015=&Ta skärmdump när programmet göms
+1019=&Egen storlek
+1080=Bredd:
+1081=Höjd:
+1099=Inställningar för skärmdumpar
+1108=Storlek på flytande ikon:
+1113=Flytande ikon flyttas som &Winamp
+
+[SettingsDialogAdvance]
+100=alla användare
+101=aktuell användare
+102=Använd angiven tangent och högerklicka på min-/max-/stäng-knappen för att minska/öka/återställa opacitet.
+103=Processnamn matchas som standard
+1025=A&ktivera ändringar av systemmenyn
+1026=Ak&tivera detektering när dolt fönster stängs
+1027=Akt&ivera dynamisk uppdatering av namnlisten
+1036=Starta automatiskt med &Windows för
+1040=K&ortkommando för DM2-fönstret:
+1046=&Behåll fönstret på Skrivbordet när flytande ikon återställs
+1067=&Matcha namnet på sektionen i favoritmenyn med namnlisten
+1018=Visa &DM2-ikonen i Meddelandefältet
+1095=Språk:
+1098=Hämta fler språk!
+1119=Antal tidigare mappar i favoritmenyn (0~15):
+
+[SettingsDialogAction]
+100=Ingen händelse
+101=Lägg fönster underst
+102=Ändra fönsterstorlek
+103=Anpassa fönster
+1115=Tangent/Mus
+1116=Min-knapp
+1117=Max-knapp
+1118=Stäng-knapp
+1119=Högerklick
+1120=Skift+Höger
+1121=Alt+Höger
+1122=Ctrl+Höger
+1123=Mittenklick
+1124=Skift+Mitten
+1125=Alt+Mitten
+1126=Ctrl+Mitten
+
+[DialogResize]
+1=OK
+2=Avbryt
+1129=Bredd:
+1130=Höjd:
+1133=Pi&xel
+1134=&Procent
+
+[SettingsDialogHotKey]
+0=Kortkommando
+1=Kommando
+2=Parameter
+100=Dölj förgrundsfönster
+101=Minimera fönster till Meddelandefältet
+102=Minimera fönster till flytande ikon
+103=Öka opacitet för fönster
+104=Minska opacitet för fönster
+105=Återställ opacitet för fönster
+106=Skifta Alltid överst
+107=Visa favoritmenyn
+108=Dölj angivet fönster
+1022=&Lägg till
+1023=&Ta bort
+1024=&Redigera
+
+[SettingsDialogHotKeyEdit]
+100=Redigera kortkommando
+101=Lägg till kortkommando
+1082=Kortkomm.:
+1083=Kommando:
+1111=Param.:
+1=Spara
+2=Avbryt
+
+[SettingsDialogFav]
+1028=Aktivera &favoritmenyn
+1032=&+
+1033=&-
+1034=R&ed.
+1029=&Lägg till
+1030=&Ta bort
+1031=&Redigera
+
+[SettingsDialogFavSection]
+100=Redigera sektion
+101=Lägg till sektion
+1084=Sektion:
+1=&Spara
+2=Avbryt
+
+[SettingsDialogFavMenu]
+100=Redigera menypost
+101=Lägg till menypost
+1085=Namn:
+1086=Sökväg:
+1064=är &undermeny
+1066=är &menyavskiljare
+1=&Spara
+2=Avbryt
+
+[SettingsDialogCustom]
+0=Regelnamn
+1=Reguljärt uttryck
+1087=Egna inställningar för flytande ikoner.
+1032=&Lägg till
+1033=&Ta bort
+1034=&Redigera
+1036=T&esta regel
+
+[SettingsDialogCustomEdit]
+100=Redigera regel
+101=Lägg till regel
+1088=Regelnamn:
+1089=Reguljärt uttryck:
+1090=Eget
+1=&Spara
+2=Avbryt
+
+[SettingsDialogExcept]
+1091=Om DM2 inte fungerar med vissa program, lägg till en regel för att undvika problemet (reguljära uttryck är tillåtna).
+1057=&Lägg till
+1058=&Ta bort
+1059=&Redigera
+
+[SettingsDialogExceptEdit]
+100=Redigera undantagsregel
+101=Lägg till undantagsregel
+1092=Regel:
+1093=Matcha med
+1053=&Namnlist
+1054=&Processnamn
+1094=Undantag
+1055=Inaktivera &favoritmenyn
+1056=&Inakt. flytande/medd.fältet/dölj/opacitet
+1107=Inaktivera &modifiering av systemmenyn
+1=&Spara
+2=Avbryt
+
+[SettingsDialogPlugins]
+1072=&Konfig.
+1073=&Om
+1075=A&vinstallera
+1101=Hämta fler moduler!
+
+[SettingsDialogWindowManager]
+0=Namnlist
+1=Status
+100=Ingen namnlist eller stängd
+101=Flytande ikon
+102=Ikon i Meddelandefältet
+103=Dolt fönster
+104=Opacitet %d%%
+1006=&Återställ
+1008=Å&terställ alla
+1007=Stäng &fönster
+1009=&Läs om
+
+[SettingsDialogAbout]
+1103=Webbplats:

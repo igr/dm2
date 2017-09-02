@@ -1,0 +1,13 @@
+EasyGamma v0.01
+because some time i want change the game gamma......
+
+gamma available value between 0 and 2.0
+1.0 = regular gamma
+above 0 = brighter
+below 2.0 = darker
+
+Param Examples:
+	+	default the gamma increase 0.02
+	-0.1	the gamma decrease 0.1
+	0.5	set the gamma to 0.5
+if param is null will reset the gamma.

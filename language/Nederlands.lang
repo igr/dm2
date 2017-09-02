@@ -1,0 +1,276 @@
+;Language version 1.20
+[LangOptions]
+LanguageName=Nederlands
+FontName=MS Sans Serif
+FontSize=9
+
+[Messages]
+0=DM2 Info
+100=Regelnaam of Reg uitdrukking ontbreekt!
+101=Regel ontbreekt!
+102=Instelling uitzondering moeten gekozen worden!
+103=Kan toepassing niet uitvoeren! Controleer doel.
+104=Deze plugin heeft geen configuratie!
+105=kan 'Standaard' of 'Toepassing' rubriek niet verwijderen!
+106=kan 'Standaard' of 'Toepassing' rubriek niet bewerken!
+108=kan menu scheiding vlag niet bewerken!
+109=rubrieknaam ontbreekt!
+110=rubrieknaam bestaat reeds!
+111=Naam ontbreekt!
+112=Gelieve '-' niet te gebruiken in de naam!
+113=Gelieve '|' of '-' niet te gebruiken in doel!
+114=Doel ontbreekt!
+115=Bewerking niet mogelijk!
+116=Regeltest resultaat:
+117=Kan overeenstemmend venster niet vinden!
+118=Te veel overeenstemmende vensters gevonden!
+119=Test ok: overeenstemmend venster gevonden!
+120=Resultaat
+121=Bent u zeker dat u deze plugin wilt verwijderen?
+122=Sneltoets bestaat reeds!
+
+[MenuFloat]
+0=D&oorzichtigheid
+103=&Herstel venster
+104=&Op voorgrond
+100=&DM2
+105=&10%
+106=&20%
+107=&30%
+108=&40%
+109=&50%
+110=&60%
+111=&70%
+112=&80%
+113=&90%
+114=1&00%
+
+[MenuTray]
+103=&Herstel venster
+100=&DM2
+
+[MenuDM2]
+100=&DM2
+101=&Herstel alle vensters
+102=&Afsluiten
+
+[MenuResize]
+40001=640x480
+40002=800x600
+40003=1024x768
+40004=1280x960
+40005=100%
+40006=50%
+40007=30%
+40008=&Ander...
+
+;Note: system menu max 30 character
+[MenuSystem]
+500=Minimalizeer naar &Systeemvak
+501=Op v&oorgrond
+502=Naar &Zwevend icoon
+503=Doorzichtigheid
+513=&uitschakelen
+514=&Voorrang
+515=&Laag
+516=&Lager dan Normaal
+517=&Normaal
+518=&Hoger dan Normaal
+519=&Hoog
+520=&RealTime
+
+[SettingsDialog]
+1=&OK
+2=&Annuleer
+1000=A&fsluiten
+0=Instellingen
+102=Algemeen
+104=Geavanceerd
+116=Actie
+105=Sneltoetsen
+106=Favorieten Menu
+108=Gepersonaliseerd
+110=Uitzonderingen
+115=Plugins
+107=Venster Manager
+103=Over
+
+[SettingsDialogGeneral]
+100=Top-Links
+101=Top-Rechts
+102=Onder-Links
+103=Onder-Rechts
+104=Midden
+105=38x38 (Standaard)
+106=30x30
+107=22x22
+1004=Zwevend icon standaard op &Voorgrond
+1009=Venster positie vo&lgt zwevend icoon
+1010=Zwevend icoon do&orzichtigheid:
+1077=Zwevend icoon originele positie:
+1078=Zwevend icoon rand kleur:
+1079=Zwevend icoon achtergrond kleur:
+1015=Maak screens&hot bij verbergen
+1019=Spreiden om te &passen
+1080=Breed:
+1081=Hoog:
+1099=Screenshot Instellingen
+1108=Zwevend icoon formaat:
+1113=Zwevend icoon verplaatsmode zoals &winamp
+
+[SettingsDialogAdvance]
+100=Alle gebruikers
+101=Huidige gebruiker
+103=Proces namen zijn standaard overeenstemmend.
+1025=Activeer &aanpassing van het systeem menu
+1026=Activeer verborgen venster afsluit&detectie
+1027=Activeer dynamische &vernieuwing vensternaam
+1036=Auto-start bij  &opstart voor
+1040=Activeer DM2 venster &sneltoets
+1046=&Voorkom buiten desktop vallen bij herstel van zwevend icoon.
+1067=Favorieten menu rubrieknaam overeenstemmend met &vensternaam
+1018=toon DM2 &systeemvak icoon
+1095=Taal:
+1098=Download andere taal!
+1119=Aantal recente folders in favorieten menu (0~15)
+
+[SettingsDialogAction]
+100=Geen actie
+101=zend venster naar onder
+102=Venster aanpassen
+103=Venster uitlijnen
+1115=Toets/muis
+1116=Min knop
+1117=Max knop
+1118=Sluit knop
+1119=Rechtsklik
+1120=Shift+Rechts
+1121=Alt+Rechts
+1122=Ctrl+Rechts
+1123=Middenklik
+1124=Shift+Midden
+1125=Alt+Midden
+1126=Ctrl+Midden
+
+[DialogResize]
+1=&OK
+2=&Annuleer
+1129=Breedte:
+1130=Hoogte:
+1133=Pi&xel
+1134=&Procent
+
+[SettingsDialogHotKey]
+0=Sneltoets
+1=Opdracht
+2=Parameter
+100=verberg voorgrond venster
+101=Minimalizeer venster naar systeemvak
+102=Minimalizeer venster naar zwevend icoon
+103=Verhoog venster doorzichtigheid
+104=Verlaag venster doorzichtigheid
+105=Herstel venster doorzichtigheid
+106=Wissel venster op voorgrong
+107=Toon favorieten menu
+108=Verberg opgegeven venster
+1022=&Voeg toe
+1023=&Verwijder
+1024=&Bewerk
+
+[SettingsDialogHotKeyEdit]
+100=Bewerk sneltoets
+101=Voeg sneltoets toe
+1082=Sneltoets:
+1083=Opdracht:
+1111=Parameter:
+1=&Bewaar
+2=&Annuleer
+
+[SettingsDialogFav]
+1028=Gebruik &favorietenmenu
+1032=V&oeg toe
+1033=Ve&rwijder
+1034=Be&werk
+1029=&Voeg toe
+1030=Verwijd&er
+1031=&Bewerk
+
+[SettingsDialogFavSection]
+100=Bewerk rubriek
+101=Voeg Rubriek toe
+1084=Rubriek:
+1=&Bewaar
+2=&Annuleer
+
+[SettingsDialogFavMenu]
+100=Bewerk menu onderwerp
+101=Voeg menu onderwerp toe
+1085=Naam:
+1086=Doel:
+1064=is s&ubmenu
+1066=is &menu scheiding
+1=&Bewaar
+2=&Annuleer
+
+[SettingsDialogCustom]
+0=Regel Naam
+1=Reg uitdrukking
+1087=Gepersonaliseerd zwevend icoon instellingen.
+1032=&Voeg toe
+1033=&Verwijder
+1034=&Bewerk
+1036=&Test regel
+
+[SettingsDialogCustomEdit]
+100=Bewerk regel
+101=Voeg regel toe
+1088=Regel Naam:
+1089=Reg uitdrukking:
+1090=gepersonaliseerd
+1=&Bewaar
+2=&Annuleer
+
+[SettingsDialogExcept]
+1091=Indien DM2 niet goed werkt met een toepassing,voeg een regel toe om problemen te voorkomenn (Reg uitdrukkingen zijn beschikbaar).
+1057=&Voeg toe
+1058=&Verwijder
+1059=&Bewerk
+
+[SettingsDialogExceptEdit]
+100=Bewerk uitzonderingsregel
+101=Voeg uitzonderingsregel toe rule
+1092=Regel:
+1093=Overeenstemmen met
+1053=Venster &naam
+1054=&Proces naam
+1094=Uitzondering instellingen
+1055=Schakel &favorieten menu functie uit
+1056=&Schakel  zwevend/systeemvak/verberg/doorzichtigheid functie uit
+1107=Schakel verandering van S&ysteem Menu uit
+1=&Bewaar
+2=&Annuleer
+
+[SettingsDialogPlugins]
+1072=C&onfiguratie
+1073=&Over
+1075=&Verwijder
+1101=Download meer plugins!
+
+[SettingsDialogWindowManager]
+0=Venster naam
+1=Status
+100=Geen naam of gesloten
+101=Zwevend icoon
+102=Systeemvak icon
+103=Verborgen venster
+104=Doorzichtigheid %d%%
+1006=&Herstel
+1008=Herstel &Alles
+1007=Sluit &Venster
+1009=Ve&rnieuw
+
+[SettingsDialogAbout]
+1103=Homepage:
+
+
+

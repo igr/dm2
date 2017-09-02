@@ -1,0 +1,18 @@
+VOLControl plugins help
+
+Param Examples:
+
+   master volume control(default):
+    m 60%:        // master volume set to 60%.
+    m +5%:        // master volume up 5%.
+    m -5%:        // master volume down 5%.
+    100%          // default master volume set to 100%.
+    +2%           // default master volume up 2%
+    -2%           // default master volume down 2%.
+    m             // auto switch master volume mute on/off
+
+   wave volume control:
+    w 50%:        // wave volume set to 50%.
+    w +1%:        // wave volume up 1%.
+    w -1%:        // wave volume down 1%.
+    w             // auto switch wave volume mute on/off
